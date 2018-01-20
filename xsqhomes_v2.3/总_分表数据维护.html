@@ -1,0 +1,2854 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>总/分表数据维护</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/总_分表数据维护/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/总_分表数据维护/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u24105" class="ax_default droplist">
+        <select id="u24105_input">
+          <option selected value="全部">全部</option>
+          <option value="电表">电表</option>
+          <option value="水表">水表</option>
+          <option value="燃气表">燃气表</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24106" class="ax_default label">
+        <div id="u24106_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24107" class="text" style="visibility: visible;">
+          <p><span>表类别</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u24108" class="ax_default _图片">
+        <img id="u24108_img" class="img " src="images/用户表读数/u20449.png"/>
+        <!-- Unnamed () -->
+        <div id="u24109" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24110" class="ax_default label">
+        <div id="u24110_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24111" class="text" style="visibility: visible;">
+          <p><span>抄表年月</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24110_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24112" class="ax_default primary_button">
+        <div id="u24112_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24113" class="text" style="visibility: visible;">
+          <p><span>筛选</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24114" class="ax_default box_1">
+        <div id="u24114_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24115" class="text" style="visibility: visible;">
+          <p><span>总/分表名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24116" class="ax_default box_1">
+        <div id="u24116_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24117" class="text" style="visibility: visible;">
+          <p><span>总/分表名称一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24118" class="ax_default box_1">
+        <div id="u24118_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24119" class="text" style="visibility: visible;">
+          <p><span>总/分表名称一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24120" class="ax_default box_1">
+        <div id="u24120_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24121" class="text" style="visibility: visible;">
+          <p><span>序号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24122" class="ax_default box_1">
+        <div id="u24122_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24123" class="text" style="visibility: visible;">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24124" class="ax_default box_1">
+        <div id="u24124_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24125" class="text" style="visibility: visible;">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24126" class="ax_default box_1">
+        <div id="u24126_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24127" class="text" style="visibility: visible;">
+          <p><span>表类别</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24128" class="ax_default box_1">
+        <div id="u24128_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24129" class="text" style="visibility: visible;">
+          <p><span>水表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24130" class="ax_default box_1">
+        <div id="u24130_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24131" class="text" style="visibility: visible;">
+          <p><span>水表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24132" class="ax_default box_1">
+        <div id="u24132_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24133" class="text" style="visibility: visible;">
+          <p><span>表编号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24134" class="ax_default box_1">
+        <div id="u24134_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24135" class="text" style="visibility: visible;">
+          <p><span>水表1#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24136" class="ax_default box_1">
+        <div id="u24136_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24137" class="text" style="visibility: visible;">
+          <p><span>水表2#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24138" class="ax_default box_1">
+        <div id="u24138_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24139" class="text" style="visibility: visible;">
+          <p><span>总/分表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24140" class="ax_default box_1">
+        <div id="u24140_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24141" class="text" style="visibility: visible;">
+          <p><span>总表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24142" class="ax_default box_1">
+        <div id="u24142_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24143" class="text" style="visibility: visible;">
+          <p><span>分表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24144" class="ax_default box_1">
+        <div id="u24144_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24145" class="text" style="visibility: visible;">
+          <p><span>抄表年月</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24146" class="ax_default box_1">
+        <div id="u24146_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24147" class="text" style="visibility: visible;">
+          <p><span>2017-05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24148" class="ax_default box_1">
+        <div id="u24148_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24149" class="text" style="visibility: visible;">
+          <p><span>2017-05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24150" class="ax_default box_1">
+        <div id="u24150_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24151" class="text" style="visibility: visible;">
+          <p><span>表用量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24150_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24152" class="ax_default box_1">
+        <div id="u24152_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24153" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24154" class="ax_default box_1">
+        <div id="u24154_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24155" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24156" class="ax_default box_1">
+        <div id="u24156_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24157" class="text" style="visibility: visible;">
+          <p><span>本次读数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24158" class="ax_default box_1">
+        <div id="u24158_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24159" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24160" class="ax_default box_1">
+        <div id="u24160_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24161" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24162" class="ax_default box_1">
+        <div id="u24162_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24163" class="text" style="visibility: visible;">
+          <p><span>修正量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24164" class="ax_default box_1">
+        <div id="u24164_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24165" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24166" class="ax_default box_1">
+        <div id="u24166_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24167" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24168" class="ax_default box_1">
+        <div id="u24168_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24169" class="text" style="visibility: visible;">
+          <p><span>上次读数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24170" class="ax_default box_1">
+        <div id="u24170_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24171" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24172" class="ax_default box_1">
+        <div id="u24172_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24173" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24174" class="ax_default box_1">
+        <div id="u24174_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24175" class="text" style="visibility: visible;">
+          <p><span>换表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24174_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24176" class="ax_default box_1">
+        <div id="u24176_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24177" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24178" class="ax_default box_1">
+        <div id="u24178_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24179" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24180" class="ax_default box_1">
+        <div id="u24180_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24181" class="text" style="visibility: visible;">
+          <p><span>计费用量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24180_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24182" class="ax_default box_1">
+        <div id="u24182_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24183" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24184" class="ax_default box_1">
+        <div id="u24184_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24185" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24186" class="ax_default box_1">
+        <div id="u24186_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24187" class="text" style="visibility: visible;">
+          <p><span>新表行至读数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24188" class="ax_default box_1">
+        <div id="u24188_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24189" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24190" class="ax_default box_1">
+        <div id="u24190_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24191" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24192" class="ax_default box_1">
+        <div id="u24192_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24193" class="text" style="visibility: visible;">
+          <p><span>新表初始读数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24194" class="ax_default box_1">
+        <div id="u24194_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24195" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24196" class="ax_default box_1">
+        <div id="u24196_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24197" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24198" class="ax_default box_1">
+        <div id="u24198_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24199" class="text" style="visibility: visible;">
+          <p><span>进位</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24198_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24200" class="ax_default box_1">
+        <div id="u24200_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24201" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24202" class="ax_default box_1">
+        <div id="u24202_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24203" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24204" class="ax_default box_1">
+        <div id="u24204_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24205" class="text" style="visibility: visible;">
+          <p><span>操作</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24206" class="ax_default box_1">
+        <div id="u24206_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24207" class="text" style="visibility: visible;">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24208" class="ax_default box_1">
+        <div id="u24208_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24209" class="text" style="visibility: visible;">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24210" class="ax_default box_1">
+        <div id="u24210_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24211" class="text" style="visibility: visible;">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24210_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24212" class="ax_default box_1">
+        <div id="u24212_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24213" class="text" style="visibility: visible;">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24212_ann" class="annotation"></div>
+
+      <!-- Unnamed (一级头部_样式2) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24215" class="ax_default box_2">
+        <div id="u24215_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24216" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24217" class="ax_default box_2">
+        <div id="u24217_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24218" class="text" style="visibility: visible;">
+          <p><span>收费设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24219" class="ax_default box_2">
+        <div id="u24219_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24220" class="text" style="visibility: visible;">
+          <p><span>物业资源</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24221" class="ax_default box_2">
+        <div id="u24221_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24222" class="text" style="visibility: visible;">
+          <p><span>组织架构</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24223" class="ax_default box_2">
+        <div id="u24223_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24224" class="text" style="visibility: visible;">
+          <p><span>表管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24225" class="ax_default box_2">
+        <div id="u24225_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24226" class="text" style="visibility: visible;">
+          <p><span>费用管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24227" class="ax_default box_2">
+        <div id="u24227_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24228" class="text" style="visibility: visible;">
+          <p><span>账号管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24229" class="ax_default box_2">
+        <div id="u24229_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24230" class="text" style="visibility: visible;">
+          <p><span>查询统计</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24231" class="ax_default box_2">
+        <div id="u24231_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24232" class="text" style="visibility: visible;">
+          <p><span>系统设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24233" class="ax_default box_2">
+        <div id="u24233_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24234" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24235" class="ax_default box_2">
+        <div id="u24235_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24236" class="text" style="visibility: visible;">
+          <p><span>信息管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24237" class="ax_default box_2">
+        <div id="u24237_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24238" class="text" style="visibility: visible;">
+          <p><span>用户表安装</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24239" class="ax_default box_2">
+        <div id="u24239_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24240" class="text" style="visibility: visible;">
+          <p><span>用户表管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (一级页签选中) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24242" class="ax_default box_3">
+        <div id="u24242_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24243" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24244" class="ax_default box_2">
+        <div id="u24244_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24245" class="text" style="visibility: visible;">
+          <p><span>总/分表管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24246" class="ax_default box_2">
+        <div id="u24246_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24247" class="text" style="visibility: visible;">
+          <p><span>用户表抄表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24248" class="ax_default box_2">
+        <div id="u24248_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24249" class="text" style="visibility: visible;">
+          <p><span>总/分表抄表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24250" class="ax_default box_2">
+        <div id="u24250_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24251" class="text" style="visibility: visible;">
+          <p><span>用户表数据维护</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24252" class="ax_default box_2">
+        <div id="u24252_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24253" class="text" style="visibility: visible;">
+          <p><span>总/分表数据维护</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24254" class="ax_default box_2">
+        <div id="u24254_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24255" class="text" style="visibility: visible;">
+          <p><span>抄表数据期末结账</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24256" class="ax_default box_3">
+        <div id="u24256_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24257" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u24258" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u24259" class="ax_default box_2">
+          <div id="u24259_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u24260" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (树状菜单) -->
+        <div id="u24261" class="ax_default tree_node treeroot">
+          <div id="u24261_children" class="u24261_children">
+
+            <!-- Unnamed (树节点) -->
+            <div id="u24262" class="ax_default tree_node treenode">
+              <!-- Unnamed (矩形) -->
+              <div id="u24263" class="" selectiongroup="u24261_tree_group">
+                <div id="u24263_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u24264" class="text" style="visibility: visible;">
+                  <p><span>全部</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (树节点) -->
+            <div id="u24265" class="ax_default tree_node treenode">
+
+              <!-- Unnamed (图片) -->
+              <div id="u24266" class="ax_default _图片">
+                <img id="u24266_img" class="img " src="images/楼栋管理/u5555_selected.png"/>
+                <!-- Unnamed () -->
+                <div id="u24267" class="text" style="display: none; visibility: hidden">
+                  <p><span></span></p>
+                </div>
+              </div>
+              <!-- Unnamed (矩形) -->
+              <div id="u24268" class="" selectiongroup="u24261_tree_group">
+                <div id="u24268_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u24269" class="text" style="visibility: visible;">
+                  <p><span>中航物业</span></p>
+                </div>
+              </div>
+              <div id="u24265_children" class="u24265_children">
+
+                <!-- Unnamed (树节点) -->
+                <div id="u24270" class="ax_default tree_node treenode">
+                  <!-- Unnamed (矩形) -->
+                  <div id="u24271" class="" selectiongroup="u24261_tree_group">
+                    <div id="u24271_div" class=""></div>
+                    <!-- Unnamed () -->
+                    <div id="u24272" class="text" style="visibility: visible;">
+                      <p><span>华阳新村</span></p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Unnamed (树节点) [footnote] -->
+                <div id="u24270_ann" class="annotation"></div>
+
+                <!-- Unnamed (树节点) -->
+                <div id="u24273" class="ax_default tree_node treenode">
+                  <!-- Unnamed (矩形) -->
+                  <div id="u24274" class="" selectiongroup="u24261_tree_group">
+                    <div id="u24274_div" class=""></div>
+                    <!-- Unnamed () -->
+                    <div id="u24275" class="text" style="visibility: visible;">
+                      <p><span>绿海家园</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (树节点) -->
+            <div id="u24276" class="ax_default tree_node treenode">
+
+              <!-- Unnamed (图片) -->
+              <div id="u24277" class="ax_default _图片">
+                <img id="u24277_img" class="img " src="images/楼栋管理/u5555_selected.png"/>
+                <!-- Unnamed () -->
+                <div id="u24278" class="text" style="display: none; visibility: hidden">
+                  <p><span></span></p>
+                </div>
+              </div>
+              <!-- Unnamed (矩形) -->
+              <div id="u24279" class="" selectiongroup="u24261_tree_group">
+                <div id="u24279_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u24280" class="text" style="visibility: visible;">
+                  <p><span>武汉分公司</span></p>
+                </div>
+              </div>
+              <div id="u24276_children" class="u24276_children">
+
+                <!-- Unnamed (树节点) -->
+                <div id="u24281" class="ax_default tree_node treenode">
+                  <!-- Unnamed (矩形) -->
+                  <div id="u24282" class="" selectiongroup="u24261_tree_group">
+                    <div id="u24282_div" class=""></div>
+                    <!-- Unnamed () -->
+                    <div id="u24283" class="text" style="visibility: visible;">
+                      <p><span>金山小区</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (树节点) -->
+            <div id="u24284" class="ax_default tree_node treenode">
+
+              <!-- Unnamed (图片) -->
+              <div id="u24285" class="ax_default _图片">
+                <img id="u24285_img" class="img " src="images/楼栋管理/u5555_selected.png"/>
+                <!-- Unnamed () -->
+                <div id="u24286" class="text" style="display: none; visibility: hidden">
+                  <p><span></span></p>
+                </div>
+              </div>
+              <!-- Unnamed (矩形) -->
+              <div id="u24287" class="" selectiongroup="u24261_tree_group">
+                <div id="u24287_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u24288" class="text" style="visibility: visible;">
+                  <p><span>武昌分公司</span></p>
+                </div>
+              </div>
+              <div id="u24284_children" class="u24284_children">
+
+                <!-- Unnamed (树节点) -->
+                <div id="u24289" class="ax_default tree_node treenode">
+                  <!-- Unnamed (矩形) -->
+                  <div id="u24290" class="" selectiongroup="u24261_tree_group">
+                    <div id="u24290_div" class=""></div>
+                    <!-- Unnamed () -->
+                    <div id="u24291" class="text" style="visibility: visible;">
+                      <p><span>城市花园小区</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (树节点) -->
+            <div id="u24292" class="ax_default tree_node treenode">
+              <!-- Unnamed (矩形) -->
+              <div id="u24293" class="" selectiongroup="u24261_tree_group">
+                <div id="u24293_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u24294" class="text" style="visibility: visible;">
+                  <p><span>南京分公司</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (树节点) -->
+            <div id="u24295" class="ax_default tree_node treenode">
+              <!-- Unnamed (矩形) -->
+              <div id="u24296" class="" selectiongroup="u24261_tree_group">
+                <div id="u24296_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u24297" class="text" style="visibility: visible;">
+                  <p><span>天津分公司</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (树状菜单) [footnote] -->
+        <div id="u24261_ann" class="annotation"></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24298" class="ax_default box_1">
+        <div id="u24298_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24299" class="text" style="visibility: visible;">
+          <p><span>总/分表名称一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24300" class="ax_default box_1">
+        <div id="u24300_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24301" class="text" style="visibility: visible;">
+          <p><span>总/分表名称一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24302" class="ax_default box_1">
+        <div id="u24302_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24303" class="text" style="visibility: visible;">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24304" class="ax_default box_1">
+        <div id="u24304_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24305" class="text" style="visibility: visible;">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24306" class="ax_default box_1">
+        <div id="u24306_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24307" class="text" style="visibility: visible;">
+          <p><span>水表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24308" class="ax_default box_1">
+        <div id="u24308_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24309" class="text" style="visibility: visible;">
+          <p><span>水表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24310" class="ax_default box_1">
+        <div id="u24310_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24311" class="text" style="visibility: visible;">
+          <p><span>水表1#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24312" class="ax_default box_1">
+        <div id="u24312_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24313" class="text" style="visibility: visible;">
+          <p><span>水表2#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24314" class="ax_default box_1">
+        <div id="u24314_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24315" class="text" style="visibility: visible;">
+          <p><span>总表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24316" class="ax_default box_1">
+        <div id="u24316_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24317" class="text" style="visibility: visible;">
+          <p><span>分表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24318" class="ax_default box_1">
+        <div id="u24318_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24319" class="text" style="visibility: visible;">
+          <p><span>2017-05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24320" class="ax_default box_1">
+        <div id="u24320_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24321" class="text" style="visibility: visible;">
+          <p><span>2017-05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24322" class="ax_default box_1">
+        <div id="u24322_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24323" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24324" class="ax_default box_1">
+        <div id="u24324_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24325" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24326" class="ax_default box_1">
+        <div id="u24326_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24327" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24328" class="ax_default box_1">
+        <div id="u24328_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24329" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24330" class="ax_default box_1">
+        <div id="u24330_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24331" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24332" class="ax_default box_1">
+        <div id="u24332_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24333" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24334" class="ax_default box_1">
+        <div id="u24334_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24335" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24336" class="ax_default box_1">
+        <div id="u24336_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24337" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24338" class="ax_default box_1">
+        <div id="u24338_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24339" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24340" class="ax_default box_1">
+        <div id="u24340_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24341" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24342" class="ax_default box_1">
+        <div id="u24342_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24343" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24344" class="ax_default box_1">
+        <div id="u24344_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24345" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24346" class="ax_default box_1">
+        <div id="u24346_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24347" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24348" class="ax_default box_1">
+        <div id="u24348_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24349" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24350" class="ax_default box_1">
+        <div id="u24350_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24351" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24352" class="ax_default box_1">
+        <div id="u24352_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24353" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24354" class="ax_default box_1">
+        <div id="u24354_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24355" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24356" class="ax_default box_1">
+        <div id="u24356_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24357" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24358" class="ax_default box_1">
+        <div id="u24358_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24359" class="text" style="visibility: visible;">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24360" class="ax_default box_1">
+        <div id="u24360_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24361" class="text" style="visibility: visible;">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24362" class="ax_default box_1">
+        <div id="u24362_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24363" class="text" style="visibility: visible;">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24362_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24364" class="ax_default box_1">
+        <div id="u24364_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24365" class="text" style="visibility: visible;">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24364_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24366" class="ax_default box_1">
+        <div id="u24366_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24367" class="text" style="visibility: visible;">
+          <p><span>总/分表名称一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24368" class="ax_default box_1">
+        <div id="u24368_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24369" class="text" style="visibility: visible;">
+          <p><span>总/分表名称一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24370" class="ax_default box_1">
+        <div id="u24370_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24371" class="text" style="visibility: visible;">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24372" class="ax_default box_1">
+        <div id="u24372_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24373" class="text" style="visibility: visible;">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24374" class="ax_default box_1">
+        <div id="u24374_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24375" class="text" style="visibility: visible;">
+          <p><span>水表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24376" class="ax_default box_1">
+        <div id="u24376_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24377" class="text" style="visibility: visible;">
+          <p><span>水表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24378" class="ax_default box_1">
+        <div id="u24378_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24379" class="text" style="visibility: visible;">
+          <p><span>水表1#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24380" class="ax_default box_1">
+        <div id="u24380_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24381" class="text" style="visibility: visible;">
+          <p><span>水表2#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24382" class="ax_default box_1">
+        <div id="u24382_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24383" class="text" style="visibility: visible;">
+          <p><span>总表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24384" class="ax_default box_1">
+        <div id="u24384_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24385" class="text" style="visibility: visible;">
+          <p><span>分表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24386" class="ax_default box_1">
+        <div id="u24386_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24387" class="text" style="visibility: visible;">
+          <p><span>2017-05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24388" class="ax_default box_1">
+        <div id="u24388_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24389" class="text" style="visibility: visible;">
+          <p><span>2017-05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24390" class="ax_default box_1">
+        <div id="u24390_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24391" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24392" class="ax_default box_1">
+        <div id="u24392_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24393" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24394" class="ax_default box_1">
+        <div id="u24394_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24395" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24396" class="ax_default box_1">
+        <div id="u24396_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24397" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24398" class="ax_default box_1">
+        <div id="u24398_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24399" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24400" class="ax_default box_1">
+        <div id="u24400_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24401" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24402" class="ax_default box_1">
+        <div id="u24402_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24403" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24404" class="ax_default box_1">
+        <div id="u24404_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24405" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24406" class="ax_default box_1">
+        <div id="u24406_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24407" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24408" class="ax_default box_1">
+        <div id="u24408_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24409" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24410" class="ax_default box_1">
+        <div id="u24410_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24411" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24412" class="ax_default box_1">
+        <div id="u24412_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24413" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24414" class="ax_default box_1">
+        <div id="u24414_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24415" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24416" class="ax_default box_1">
+        <div id="u24416_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24417" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24418" class="ax_default box_1">
+        <div id="u24418_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24419" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24420" class="ax_default box_1">
+        <div id="u24420_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24421" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24422" class="ax_default box_1">
+        <div id="u24422_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24423" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24424" class="ax_default box_1">
+        <div id="u24424_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24425" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24426" class="ax_default box_1">
+        <div id="u24426_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24427" class="text" style="visibility: visible;">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24428" class="ax_default box_1">
+        <div id="u24428_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24429" class="text" style="visibility: visible;">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24430" class="ax_default box_1">
+        <div id="u24430_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24431" class="text" style="visibility: visible;">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24430_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24432" class="ax_default box_1">
+        <div id="u24432_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24433" class="text" style="visibility: visible;">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24432_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24434" class="ax_default box_1">
+        <div id="u24434_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24435" class="text" style="visibility: visible;">
+          <p><span>总/分表名称一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24436" class="ax_default box_1">
+        <div id="u24436_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24437" class="text" style="visibility: visible;">
+          <p><span>总/分表名称一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24438" class="ax_default box_1">
+        <div id="u24438_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24439" class="text" style="visibility: visible;">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24440" class="ax_default box_1">
+        <div id="u24440_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24441" class="text" style="visibility: visible;">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24442" class="ax_default box_1">
+        <div id="u24442_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24443" class="text" style="visibility: visible;">
+          <p><span>水表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24444" class="ax_default box_1">
+        <div id="u24444_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24445" class="text" style="visibility: visible;">
+          <p><span>水表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24446" class="ax_default box_1">
+        <div id="u24446_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24447" class="text" style="visibility: visible;">
+          <p><span>水表1#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24448" class="ax_default box_1">
+        <div id="u24448_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24449" class="text" style="visibility: visible;">
+          <p><span>水表2#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24450" class="ax_default box_1">
+        <div id="u24450_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24451" class="text" style="visibility: visible;">
+          <p><span>总表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24452" class="ax_default box_1">
+        <div id="u24452_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24453" class="text" style="visibility: visible;">
+          <p><span>分表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24454" class="ax_default box_1">
+        <div id="u24454_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24455" class="text" style="visibility: visible;">
+          <p><span>2017-05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24456" class="ax_default box_1">
+        <div id="u24456_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24457" class="text" style="visibility: visible;">
+          <p><span>2017-05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24458" class="ax_default box_1">
+        <div id="u24458_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24459" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24460" class="ax_default box_1">
+        <div id="u24460_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24461" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24462" class="ax_default box_1">
+        <div id="u24462_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24463" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24464" class="ax_default box_1">
+        <div id="u24464_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24465" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24466" class="ax_default box_1">
+        <div id="u24466_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24467" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24468" class="ax_default box_1">
+        <div id="u24468_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24469" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24470" class="ax_default box_1">
+        <div id="u24470_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24471" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24472" class="ax_default box_1">
+        <div id="u24472_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24473" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24474" class="ax_default box_1">
+        <div id="u24474_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24475" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24476" class="ax_default box_1">
+        <div id="u24476_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24477" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24478" class="ax_default box_1">
+        <div id="u24478_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24479" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24480" class="ax_default box_1">
+        <div id="u24480_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24481" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24482" class="ax_default box_1">
+        <div id="u24482_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24483" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24484" class="ax_default box_1">
+        <div id="u24484_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24485" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24486" class="ax_default box_1">
+        <div id="u24486_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24487" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24488" class="ax_default box_1">
+        <div id="u24488_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24489" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24490" class="ax_default box_1">
+        <div id="u24490_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24491" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24492" class="ax_default box_1">
+        <div id="u24492_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24493" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24494" class="ax_default box_1">
+        <div id="u24494_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24495" class="text" style="visibility: visible;">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24496" class="ax_default box_1">
+        <div id="u24496_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24497" class="text" style="visibility: visible;">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24498" class="ax_default box_1">
+        <div id="u24498_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24499" class="text" style="visibility: visible;">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24498_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24500" class="ax_default box_1">
+        <div id="u24500_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24501" class="text" style="visibility: visible;">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24500_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24502" class="ax_default box_1">
+        <div id="u24502_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24503" class="text" style="visibility: visible;">
+          <p><span>总/分表名称一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24504" class="ax_default box_1">
+        <div id="u24504_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24505" class="text" style="visibility: visible;">
+          <p><span>总/分表名称一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24506" class="ax_default box_1">
+        <div id="u24506_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24507" class="text" style="visibility: visible;">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24508" class="ax_default box_1">
+        <div id="u24508_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24509" class="text" style="visibility: visible;">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24510" class="ax_default box_1">
+        <div id="u24510_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24511" class="text" style="visibility: visible;">
+          <p><span>水表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24512" class="ax_default box_1">
+        <div id="u24512_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24513" class="text" style="visibility: visible;">
+          <p><span>水表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24514" class="ax_default box_1">
+        <div id="u24514_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24515" class="text" style="visibility: visible;">
+          <p><span>水表1#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24516" class="ax_default box_1">
+        <div id="u24516_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24517" class="text" style="visibility: visible;">
+          <p><span>水表2#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24518" class="ax_default box_1">
+        <div id="u24518_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24519" class="text" style="visibility: visible;">
+          <p><span>总表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24520" class="ax_default box_1">
+        <div id="u24520_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24521" class="text" style="visibility: visible;">
+          <p><span>分表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24522" class="ax_default box_1">
+        <div id="u24522_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24523" class="text" style="visibility: visible;">
+          <p><span>2017-05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24524" class="ax_default box_1">
+        <div id="u24524_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24525" class="text" style="visibility: visible;">
+          <p><span>2017-05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24526" class="ax_default box_1">
+        <div id="u24526_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24527" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24528" class="ax_default box_1">
+        <div id="u24528_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24529" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24530" class="ax_default box_1">
+        <div id="u24530_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24531" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24532" class="ax_default box_1">
+        <div id="u24532_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24533" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24534" class="ax_default box_1">
+        <div id="u24534_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24535" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24536" class="ax_default box_1">
+        <div id="u24536_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24537" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24538" class="ax_default box_1">
+        <div id="u24538_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24539" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24540" class="ax_default box_1">
+        <div id="u24540_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24541" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24542" class="ax_default box_1">
+        <div id="u24542_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24543" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24544" class="ax_default box_1">
+        <div id="u24544_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24545" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24546" class="ax_default box_1">
+        <div id="u24546_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24547" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24548" class="ax_default box_1">
+        <div id="u24548_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24549" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24550" class="ax_default box_1">
+        <div id="u24550_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24551" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24552" class="ax_default box_1">
+        <div id="u24552_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24553" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24554" class="ax_default box_1">
+        <div id="u24554_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24555" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24556" class="ax_default box_1">
+        <div id="u24556_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24557" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24558" class="ax_default box_1">
+        <div id="u24558_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24559" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24560" class="ax_default box_1">
+        <div id="u24560_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24561" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24562" class="ax_default box_1">
+        <div id="u24562_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24563" class="text" style="visibility: visible;">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24564" class="ax_default box_1">
+        <div id="u24564_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24565" class="text" style="visibility: visible;">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24566" class="ax_default box_1">
+        <div id="u24566_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24567" class="text" style="visibility: visible;">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24566_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24568" class="ax_default box_1">
+        <div id="u24568_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24569" class="text" style="visibility: visible;">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24568_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24570" class="ax_default box_1">
+        <div id="u24570_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24571" class="text" style="visibility: visible;">
+          <p><span>总/分表名称一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24572" class="ax_default box_1">
+        <div id="u24572_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24573" class="text" style="visibility: visible;">
+          <p><span>总/分表名称一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24574" class="ax_default box_1">
+        <div id="u24574_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24575" class="text" style="visibility: visible;">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24576" class="ax_default box_1">
+        <div id="u24576_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24577" class="text" style="visibility: visible;">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24578" class="ax_default box_1">
+        <div id="u24578_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24579" class="text" style="visibility: visible;">
+          <p><span>水表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24580" class="ax_default box_1">
+        <div id="u24580_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24581" class="text" style="visibility: visible;">
+          <p><span>水表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24582" class="ax_default box_1">
+        <div id="u24582_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24583" class="text" style="visibility: visible;">
+          <p><span>水表1#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24584" class="ax_default box_1">
+        <div id="u24584_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24585" class="text" style="visibility: visible;">
+          <p><span>水表2#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24586" class="ax_default box_1">
+        <div id="u24586_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24587" class="text" style="visibility: visible;">
+          <p><span>总表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24588" class="ax_default box_1">
+        <div id="u24588_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24589" class="text" style="visibility: visible;">
+          <p><span>分表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24590" class="ax_default box_1">
+        <div id="u24590_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24591" class="text" style="visibility: visible;">
+          <p><span>2017-05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24592" class="ax_default box_1">
+        <div id="u24592_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24593" class="text" style="visibility: visible;">
+          <p><span>2017-05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24594" class="ax_default box_1">
+        <div id="u24594_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24595" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24596" class="ax_default box_1">
+        <div id="u24596_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24597" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24598" class="ax_default box_1">
+        <div id="u24598_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24599" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24600" class="ax_default box_1">
+        <div id="u24600_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24601" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24602" class="ax_default box_1">
+        <div id="u24602_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24603" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24604" class="ax_default box_1">
+        <div id="u24604_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24605" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24606" class="ax_default box_1">
+        <div id="u24606_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24607" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24608" class="ax_default box_1">
+        <div id="u24608_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24609" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24610" class="ax_default box_1">
+        <div id="u24610_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24611" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24612" class="ax_default box_1">
+        <div id="u24612_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24613" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24614" class="ax_default box_1">
+        <div id="u24614_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24615" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24616" class="ax_default box_1">
+        <div id="u24616_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24617" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24618" class="ax_default box_1">
+        <div id="u24618_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24619" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24620" class="ax_default box_1">
+        <div id="u24620_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24621" class="text" style="visibility: visible;">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24622" class="ax_default box_1">
+        <div id="u24622_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24623" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24624" class="ax_default box_1">
+        <div id="u24624_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24625" class="text" style="visibility: visible;">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24626" class="ax_default box_1">
+        <div id="u24626_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24627" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24628" class="ax_default box_1">
+        <div id="u24628_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24629" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24630" class="ax_default box_1">
+        <div id="u24630_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24631" class="text" style="visibility: visible;">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24632" class="ax_default box_1">
+        <div id="u24632_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24633" class="text" style="visibility: visible;">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24634" class="ax_default box_1">
+        <div id="u24634_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24635" class="text" style="visibility: visible;">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24634_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24636" class="ax_default box_1">
+        <div id="u24636_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24637" class="text" style="visibility: visible;">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24636_ann" class="annotation"></div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u24638" class="ax_default _图片">
+        <img id="u24638_img" class="img " src="images/物业公司信息/u404.png"/>
+        <!-- Unnamed () -->
+        <div id="u24639" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u24640" class="ax_default _图片">
+        <img id="u24640_img" class="img " src="images/物业公司信息/u406.png"/>
+        <!-- Unnamed () -->
+        <div id="u24641" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24642" class="ax_default box_2">
+        <div id="u24642_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24643" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24644" class="ax_default box_2">
+        <div id="u24644_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24645" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24646" class="ax_default primary_button">
+        <div id="u24646_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24647" class="text" style="visibility: visible;">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24648" class="ax_default box_2">
+        <div id="u24648_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24649" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp;&nbsp; 总/分表数据维护</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u24650" class="ax_default _图片">
+        <img id="u24650_img" class="img " src="images/项目管理/u3730.png"/>
+        <!-- Unnamed () -->
+        <div id="u24651" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u24652" class="ax_default text_field">
+        <input id="u24652_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24653" class="ax_default label">
+        <div id="u24653_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24654" class="text" style="visibility: visible;">
+          <p><span>备&nbsp; &nbsp; &nbsp;&nbsp; 注：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24655" class="ax_default label">
+        <div id="u24655_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24656" class="text" style="visibility: visible;">
+          <p><span>项目名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24657" class="ax_default label">
+        <div id="u24657_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24658" class="text" style="visibility: visible;">
+          <p><span>XXXX小区 </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24659" class="ax_default label">
+        <div id="u24659_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24660" class="text" style="visibility: visible;">
+          <p><span>表编号：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24661" class="ax_default label">
+        <div id="u24661_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24662" class="text" style="visibility: visible;">
+          <p><span>GWE12313</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24661_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24663" class="ax_default label">
+        <div id="u24663_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24664" class="text" style="visibility: visible;">
+          <p><span>抄表年月：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24665" class="ax_default label">
+        <div id="u24665_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24666" class="text" style="visibility: visible;">
+          <p><span>上次读数：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u24667" class="ax_default text_field">
+        <input id="u24667_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24668" class="ax_default label">
+        <div id="u24668_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24669" class="text" style="visibility: visible;">
+          <p><span>本次读数：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u24670" class="ax_default text_field">
+        <input id="u24670_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24671" class="ax_default label">
+        <div id="u24671_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24672" class="text" style="visibility: visible;">
+          <p><span>修正量：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u24673" class="ax_default text_field">
+        <input id="u24673_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24674" class="ax_default label">
+        <div id="u24674_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24675" class="text" style="visibility: visible;">
+          <p><span>2017年03月</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u24676" class="ax_default checkbox">
+        <label for="u24676_input">
+          <!-- Unnamed () -->
+          <div id="u24677" class="text" style="visibility: visible;">
+            <p><span>换表</span></p>
+          </div>
+        </label>
+        <input id="u24676_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) [footnote] -->
+      <div id="u24676_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24678" class="ax_default label">
+        <div id="u24678_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24679" class="text" style="visibility: visible;">
+          <p><span>新表初始读数：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u24680" class="ax_default text_field">
+        <input id="u24680_input" type="text" value="" disabled/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u24681" class="ax_default checkbox">
+        <label for="u24681_input">
+          <!-- Unnamed () -->
+          <div id="u24682" class="text" style="visibility: visible;">
+            <p><span>进位</span></p>
+          </div>
+        </label>
+        <input id="u24681_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24683" class="ax_default label">
+        <div id="u24683_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24684" class="text" style="visibility: visible;">
+          <p><span>新表行至读数：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u24685" class="ax_default text_field">
+        <input id="u24685_input" type="text" value="" disabled/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24686" class="ax_default label">
+        <div id="u24686_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24687" class="text" style="visibility: visible;">
+          <p><span>表用量：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24688" class="ax_default label">
+        <div id="u24688_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24689" class="text" style="visibility: visible;">
+          <p><span>3213</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) [footnote] -->
+      <div id="u24688_ann" class="annotation"></div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24690" class="ax_default label">
+        <div id="u24690_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24691" class="text" style="visibility: visible;">
+          <p><span>表名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24692" class="ax_default label">
+        <div id="u24692_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24693" class="text" style="visibility: visible;">
+          <p><span>电梯公摊电表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24694" class="ax_default label">
+        <div id="u24694_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24695" class="text" style="visibility: visible;">
+          <p><span>表类别：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24696" class="ax_default label">
+        <div id="u24696_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24697" class="text" style="visibility: visible;">
+          <p><span>电表</span><span style="color:#00CC00;">/水表/燃气表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24698" class="ax_default label">
+        <div id="u24698_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24699" class="text" style="visibility: visible;">
+          <p><span>抄表员：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u24700" class="ax_default label">
+        <div id="u24700_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u24701" class="text" style="visibility: visible;">
+          <p><span>抄表日期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u24702" class="ax_default droplist">
+        <select id="u24702_input">
+          <option selected value="张三">张三</option>
+          <option value="李四">李四</option>
+          <option value="王五">王五</option>
+          <option value="无">无</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) [footnote] -->
+      <div id="u24702_ann" class="annotation"></div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u24703" class="ax_default">
+
+        <!-- Unnamed (图片) -->
+        <div id="u24704" class="ax_default _图片">
+          <img id="u24704_img" class="img " src="images/用户表读数/u20449.png"/>
+          <!-- Unnamed () -->
+          <div id="u24705" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u24706" class="ax_default label">
+          <div id="u24706_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u24707" class="text" style="visibility: visible;">
+            <p><span>2017年03月05日</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u24708" class="ax_default _连接线">
+        <img id="u24708_seg0" class="img " src="images/总_分表数据维护/u24708_seg0.png" alt="u24708_seg0"/>
+        <img id="u24708_seg1" class="img " src="images/总_分表数据维护/u24708_seg1.png" alt="u24708_seg1"/>
+        <img id="u24708_seg2" class="img " src="images/用户表档案/u20431_seg3.png" alt="u24708_seg2"/>
+        <img id="u24708_seg3" class="img " src="images/物业公司信息/u446_seg3.png" alt="u24708_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u24709" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
