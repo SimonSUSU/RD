@@ -16,7 +16,7 @@
         }
     </script>
 
-    <!-- 8.0.0.3372 -->
+    <!-- 8.0.0.3333 -->
 <script src="resources/scripts/jquery-1.7.1.min.js"></script>
 <script src="resources/scripts/startPre.js"></script>
 <script src="data/document.js"></script>
@@ -170,22 +170,6 @@
                 }
 
                 var mainFrame = document.getElementById("mainFrame");
-                //if it's local file on safari, test if we can access mainframe after its loaded
-                if(SAFARI && document.location.href.indexOf('file://') >= 0) {
-                    $(mainFrame).load(function () {
-                        var canAccess;
-                        try {
-                            var mainFrameWindow = mainFrame.contentWindow || mainFrame.contentDocument;
-                            mainFrameWindow['safari_file_CORS'] = 'Y';
-                            canAccess = mainFrameWindow['safari_file_CORS'] === 'Y';
-                        } catch(err) {
-                            canAccess = false;
-                        }
-
-                        if(!canAccess) window.location = 'resources/chrome/safari.html';
-                    });
-                }
-
                 mainFrame.contentWindow.location.href = getInitialUrl();
             }
 
