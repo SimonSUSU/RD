@@ -1,4 +1,4 @@
-﻿// 8.0.0.3372. Generated 2/5/2018 11:05:16 PM UTC
+﻿// 8.0.0.3377. Generated 6/6/2018 6:37:57 PM UTC
 
 //***** messagecenter.js *****//
 if (typeof console == 'undefined') console = {
@@ -7157,8 +7157,13 @@ $axure.internal(function($ax) {
     };
     _repeaterManager.applySuffixToElementId = _applySuffixToElementId;
 
-    var _removeSuffixFromElementId = function(id) {
-        if (id.indexOf('_') != -1) return id.split('_', 1)[0];
+    var _removeSuffixFromElementId = function (id) {
+        var suffixId = id.indexOf('_');
+        if(suffixId != -1) return id.substr(0, suffixId);
+
+        var partId = id.indexOf('p');
+        if(partId != -1) return _createElementId(id.substr(0, partId), _getItemIdFromElementId(id)); // item id is after part, but before suffix
+
         return id;
     }
     _repeaterManager.removeSuffixFromElementId = _removeSuffixFromElementId;
