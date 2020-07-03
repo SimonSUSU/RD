@@ -1,7 +1,12 @@
 ﻿body {
   margin:0px;
   background-color:rgba(202, 202, 202, 1);
-  background-image:none;
+  background-image:url('../../images/项目实施导航图/bg.jpg');
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:contain;
+  background-origin:border-box;
   position:relative;
   left:0px;
   width:1200px;
@@ -17,7 +22,7 @@
   position:absolute;
   z-index:0;
 }
-#u3965_img {
+#u3990_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -25,7 +30,7 @@
   width:1200px;
   height:869px;
 }
-#u3965 {
+#u3990 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -34,14 +39,14 @@
   height:869px;
   display:flex;
 }
-#u3965 .text {
+#u3990 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u3965_text {
+#u3990_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;

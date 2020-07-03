@@ -1,7 +1,12 @@
 ﻿body {
   margin:0px;
   background-color:rgba(202, 202, 202, 1);
-  background-image:none;
+  background-image:url('../../images/项目实施导航图/bg.jpg');
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:contain;
+  background-origin:border-box;
   position:relative;
   left:0px;
   width:375px;
@@ -17,7 +22,7 @@
   position:absolute;
   z-index:0;
 }
-#u3806_div {
+#u3830_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -32,7 +37,7 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u3806 {
+#u3830 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -41,20 +46,20 @@
   height:732px;
   display:flex;
 }
-#u3806 .text {
+#u3830 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u3806_text {
+#u3830_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u3807_div {
+#u3831_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -69,7 +74,7 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u3807 {
+#u3831 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -78,20 +83,20 @@
   height:57px;
   display:flex;
 }
-#u3807 .text {
+#u3831 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u3807_text {
+#u3831_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u3808 {
+#u3832 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -99,7 +104,7 @@
   width:0px;
   height:0px;
 }
-#u3809_img {
+#u3833_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -107,7 +112,7 @@
   width:19px;
   height:2px;
 }
-#u3809 {
+#u3833 {
   border-width:0px;
   position:absolute;
   left:12px;
@@ -120,20 +125,20 @@
   -ms-transform:rotate(45deg);
   transform:rotate(45deg);
 }
-#u3809 .text {
+#u3833 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u3809_text {
+#u3833_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u3810_img {
+#u3834_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -141,7 +146,7 @@
   width:19px;
   height:2px;
 }
-#u3810 {
+#u3834 {
   border-width:0px;
   position:absolute;
   left:12px;
@@ -154,20 +159,20 @@
   -ms-transform:rotate(315deg);
   transform:rotate(315deg);
 }
-#u3810 .text {
+#u3834 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u3810_text {
+#u3834_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u3811_div {
+#u3835_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -186,7 +191,7 @@
   font-style:normal;
   font-size:18px;
 }
-#u3811 {
+#u3835 {
   border-width:0px;
   position:absolute;
   left:154px;
@@ -199,19 +204,19 @@
   font-style:normal;
   font-size:18px;
 }
-#u3811 .text {
+#u3835 .text {
   position:absolute;
   align-self:flex-start;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
-#u3811_text {
+#u3835_text {
   border-width:0px;
   white-space:nowrap;
   text-transform:none;
 }
-#u3812_input {
+#u3836_input {
   position:absolute;
   left:0px;
   top:0px;
@@ -231,7 +236,7 @@
   border-color:transparent;
   resize:none;
 }
-#u3812_input.disabled {
+#u3836_input.disabled {
   position:absolute;
   left:0px;
   top:0px;
@@ -251,7 +256,7 @@
   border-color:transparent;
   resize:none;
 }
-#u3812_div {
+#u3836_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -266,7 +271,7 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u3812 {
+#u3836 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -275,14 +280,14 @@
   height:708px;
   display:flex;
 }
-#u3812 .text {
+#u3836 .text {
   position:absolute;
   align-self:flex-start;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u3812_div.disabled {
+#u3836_div.disabled {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -297,5 +302,5 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u3812.disabled {
+#u3836.disabled {
 }
