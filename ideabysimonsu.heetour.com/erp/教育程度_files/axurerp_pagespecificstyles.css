@@ -1,0 +1,6803 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../系统配置左菜单_files/u5_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:10px;
+    top:90px;
+    width:120px;
+    height:40px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:46px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:116px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:10px;
+    top:130px;
+    width:120px;
+    height:30px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:10px;
+    top:330px;
+    width:120px;
+    height:30px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:10px;
+    top:480px;
+    width:120px;
+    height:30px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:10px;
+    top:160px;
+    width:120px;
+    height:30px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:10px;
+    top:190px;
+    width:120px;
+    height:30px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:10px;
+    top:220px;
+    width:120px;
+    height:30px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../系统配置左菜单_files/u5_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:10px;
+    top:290px;
+    width:120px;
+    height:40px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:46px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:116px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:10px;
+    top:360px;
+    width:120px;
+    height:30px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:10px;
+    top:114px;
+    width:50px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19 {
+    position:absolute;
+    left:10px;
+    top:314px;
+    width:50px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:10px;
+    top:450px;
+    width:120px;
+    height:30px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:10px;
+    top:420px;
+    width:120px;
+    height:30px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:10px;
+    top:510px;
+    width:120px;
+    height:30px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:10px;
+    top:540px;
+    width:120px;
+    height:30px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:10px;
+    top:570px;
+    width:120px;
+    height:30px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:10px;
+    top:390px;
+    width:120px;
+    height:30px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:10px;
+    top:600px;
+    width:120px;
+    height:30px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../系统配置左菜单_files/u7_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:10px;
+    top:250px;
+    width:120px;
+    height:30px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../Header_files/u108_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:10px;
+    top:0px;
+    width:1000px;
+    height:80px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1006px;
+    height:86px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:996px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39 {
+    position:absolute;
+    left:10px;
+    top:30px;
+    width:170px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40 {
+    position:absolute;
+    left:185px;
+    top:8px;
+    width:425px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41 {
+    position:absolute;
+    left:970px;
+    top:10px;
+    width:40px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:904px;
+    top:10px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43 {
+    position:absolute;
+    left:675px;
+    top:10px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44 {
+    position:absolute;
+    left:746px;
+    top:10px;
+    width:69px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45_normal {
+    background-image: url('../Header_files/u116_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:809px;
+    top:16px;
+    width:6px;
+    height:4px;
+}
+
+#u45_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:12px;
+    height:10px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:2px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47 {
+    position:absolute;
+    left:730px;
+    top:67px;
+    width:30px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:655px;
+    top:68px;
+    width:30px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49 {
+    position:absolute;
+    left:830px;
+    top:10px;
+    width:60px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50_normal {
+    background-image: url('../Header_files/u121_normal.png');
+}
+
+.u50_container {
+    position:absolute;
+    left:185px;
+    top:40px;
+    width:69px;
+    height:40px;
+}
+
+#u50_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:75px;
+    height:46px;
+}
+
+.u51 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52_normal {
+    background-image: url('../Header_files/u123_normal.png');
+}
+
+.u52_container {
+    position:absolute;
+    left:872px;
+    top:40px;
+    width:69px;
+    height:40px;
+}
+
+#u52_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:75px;
+    height:46px;
+}
+
+.u53 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54_normal {
+    background-image: url('../Header_files/u123_normal.png');
+}
+
+.u54_container {
+    position:absolute;
+    left:941px;
+    top:40px;
+    width:69px;
+    height:40px;
+}
+
+#u54_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:75px;
+    height:46px;
+}
+
+.u55 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56_normal {
+    background-image: url('../Header_files/u123_normal.png');
+}
+
+.u56_container {
+    position:absolute;
+    left:735px;
+    top:40px;
+    width:69px;
+    height:40px;
+}
+
+#u56_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:75px;
+    height:46px;
+}
+
+.u57 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u58_normal {
+    background-image: url('../Header_files/u123_normal.png');
+}
+
+.u58_container {
+    position:absolute;
+    left:666px;
+    top:40px;
+    width:69px;
+    height:40px;
+}
+
+#u58_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:75px;
+    height:46px;
+}
+
+.u59 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u60_normal {
+    background-image: url('../Header_files/u123_normal.png');
+}
+
+.u60_container {
+    position:absolute;
+    left:323px;
+    top:40px;
+    width:69px;
+    height:40px;
+}
+
+#u60_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:75px;
+    height:46px;
+}
+
+.u61 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62_normal {
+    background-image: url('../Header_files/u123_normal.png');
+}
+
+.u62_container {
+    position:absolute;
+    left:254px;
+    top:40px;
+    width:69px;
+    height:40px;
+}
+
+#u62_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:75px;
+    height:46px;
+}
+
+.u63 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64_normal {
+    background-image: url('../Header_files/u123_normal.png');
+}
+
+.u64_container {
+    position:absolute;
+    left:598px;
+    top:40px;
+    width:69px;
+    height:40px;
+}
+
+#u64_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:75px;
+    height:46px;
+}
+
+.u65 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66_normal {
+    background-image: url('../Header_files/u123_normal.png');
+}
+
+.u66_container {
+    position:absolute;
+    left:392px;
+    top:40px;
+    width:69px;
+    height:40px;
+}
+
+#u66_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:75px;
+    height:46px;
+}
+
+.u67 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68 {
+    position:absolute;
+    left:753px;
+    top:66px;
+    width:28px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69 {
+    position:absolute;
+    left:685px;
+    top:67px;
+    width:28px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u70_normal {
+    background-image: url('../Header_files/u123_normal.png');
+}
+
+.u70_container {
+    position:absolute;
+    left:804px;
+    top:40px;
+    width:69px;
+    height:40px;
+}
+
+#u70_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:75px;
+    height:46px;
+}
+
+.u71 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72_normal {
+    background-image: url('../Header_files/u123_normal.png');
+}
+
+.u72_container {
+    position:absolute;
+    left:529px;
+    top:40px;
+    width:69px;
+    height:40px;
+}
+
+#u72_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:75px;
+    height:46px;
+}
+
+.u73 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u74_normal {
+    background-image: url('../Header_files/u123_normal.png');
+}
+
+.u74_container {
+    position:absolute;
+    left:461px;
+    top:40px;
+    width:69px;
+    height:40px;
+}
+
+#u74_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:75px;
+    height:46px;
+}
+
+.u75 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:65px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u76 {
+    position:absolute;
+    left:100px;
+    top:5px;
+    width:881px;
+    height:326px;
+    overflow:hidden;
+}
+
+#pd0u76 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:881px;
+    height:326px;
+    
+}
+
+.u77_normal {
+    background-image: url('../Header_files/u148_normal.png');
+}
+
+.u77_container {
+    position:absolute;
+    left:0px;
+    top:24px;
+    width:880px;
+    height:300px;
+}
+
+#u77_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:886px;
+    height:306px;
+}
+
+.u78 {
+    position:absolute;
+    left:2px;
+    top:142px;
+    width:876px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u79_normal {
+    background-image: url('../Header_files/u150_normal.png');
+}
+
+.u79_container {
+    position:absolute;
+    left:650px;
+    top:0px;
+    width:70px;
+    height:24px;
+}
+
+#u79_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:76px;
+    height:30px;
+}
+
+.u80 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:66px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81_normal {
+    background-image: url('../Header_files/u152_normal.png');
+}
+
+.u81_container {
+    position:absolute;
+    left:708px;
+    top:10px;
+    width:6px;
+    height:4px;
+}
+
+#u81_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:12px;
+    height:10px;
+}
+
+.u82 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:2px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u83 {
+    position:absolute;
+    left:651px;
+    top:4px;
+    width:67px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u84_normal {
+    background-image: url('../Header_files/u155_normal.png');
+}
+
+.u84_container {
+    position:absolute;
+    left:687px;
+    top:40px;
+    width:86px;
+    height:30px;
+}
+
+#u84_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u85 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u86_normal {
+    background-image: url('../Header_files/u155_normal.png');
+}
+
+.u86_container {
+    position:absolute;
+    left:784px;
+    top:40px;
+    width:86px;
+    height:30px;
+}
+
+#u86_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u87 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u88_normal {
+    background-image: url('../Header_files/u155_normal.png');
+}
+
+.u88_container {
+    position:absolute;
+    left:497px;
+    top:40px;
+    width:86px;
+    height:30px;
+}
+
+#u88_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u89 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u90_normal {
+    background-image: url('../Header_files/u155_normal.png');
+}
+
+.u90_container {
+    position:absolute;
+    left:399px;
+    top:40px;
+    width:86px;
+    height:30px;
+}
+
+#u90_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u91 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u92_normal {
+    background-image: url('../Header_files/u155_normal.png');
+}
+
+.u92_container {
+    position:absolute;
+    left:106px;
+    top:40px;
+    width:86px;
+    height:30px;
+}
+
+#u92_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u93 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u94_normal {
+    background-image: url('../Header_files/u155_normal.png');
+}
+
+.u94_container {
+    position:absolute;
+    left:10px;
+    top:40px;
+    width:86px;
+    height:30px;
+}
+
+#u94_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u95 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u96_normal {
+    background-image: url('../Header_files/u155_normal.png');
+}
+
+.u96_container {
+    position:absolute;
+    left:303px;
+    top:40px;
+    width:86px;
+    height:30px;
+}
+
+#u96_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u97 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u98_normal {
+    background-image: url('../Header_files/u155_normal.png');
+}
+
+.u98_container {
+    position:absolute;
+    left:205px;
+    top:40px;
+    width:86px;
+    height:30px;
+}
+
+#u98_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u99 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u100_normal {
+    background-image: url('../Header_files/u155_normal.png');
+}
+
+.u100_container {
+    position:absolute;
+    left:595px;
+    top:40px;
+    width:86px;
+    height:30px;
+}
+
+#u100_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u101 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u102_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u102_container {
+    position:absolute;
+    left:10px;
+    top:100px;
+    width:86px;
+    height:30px;
+}
+
+#u102_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u103 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u104_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u104_container {
+    position:absolute;
+    left:10px;
+    top:220px;
+    width:86px;
+    height:30px;
+}
+
+#u104_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u105 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u106_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u106_container {
+    position:absolute;
+    left:10px;
+    top:190px;
+    width:86px;
+    height:30px;
+}
+
+#u106_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u107 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u108_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u108_container {
+    position:absolute;
+    left:10px;
+    top:70px;
+    width:86px;
+    height:30px;
+}
+
+#u108_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u109 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u110_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u110_container {
+    position:absolute;
+    left:10px;
+    top:160px;
+    width:86px;
+    height:30px;
+}
+
+#u110_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u111 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u112_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u112_container {
+    position:absolute;
+    left:10px;
+    top:130px;
+    width:86px;
+    height:30px;
+}
+
+#u112_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u113 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u114_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u114_container {
+    position:absolute;
+    left:10px;
+    top:280px;
+    width:86px;
+    height:30px;
+}
+
+#u114_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u115 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u116_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u116_container {
+    position:absolute;
+    left:10px;
+    top:250px;
+    width:86px;
+    height:30px;
+}
+
+#u116_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u117 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u118_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u118_container {
+    position:absolute;
+    left:784px;
+    top:70px;
+    width:86px;
+    height:30px;
+}
+
+#u118_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u119 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u120_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u120_container {
+    position:absolute;
+    left:784px;
+    top:100px;
+    width:86px;
+    height:30px;
+}
+
+#u120_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u121 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u122_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u122_container {
+    position:absolute;
+    left:784px;
+    top:130px;
+    width:86px;
+    height:30px;
+}
+
+#u122_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u123 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u124_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u124_container {
+    position:absolute;
+    left:784px;
+    top:160px;
+    width:86px;
+    height:30px;
+}
+
+#u124_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u125 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u126_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u126_container {
+    position:absolute;
+    left:687px;
+    top:70px;
+    width:86px;
+    height:30px;
+}
+
+#u126_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u127 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u128_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u128_container {
+    position:absolute;
+    left:687px;
+    top:100px;
+    width:86px;
+    height:30px;
+}
+
+#u128_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u129 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u130_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u130_container {
+    position:absolute;
+    left:687px;
+    top:130px;
+    width:86px;
+    height:30px;
+}
+
+#u130_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u131 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u132_normal {
+    background-image: url('../Header_files/u203_normal.png');
+}
+
+.u132_container {
+    position:absolute;
+    left:687px;
+    top:159px;
+    width:86px;
+    height:32px;
+}
+
+#u132_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:38px;
+}
+
+.u133 {
+    position:absolute;
+    left:2px;
+    top:9px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u134_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u134_container {
+    position:absolute;
+    left:687px;
+    top:190px;
+    width:86px;
+    height:30px;
+}
+
+#u134_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u135 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u136_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u136_container {
+    position:absolute;
+    left:595px;
+    top:100px;
+    width:86px;
+    height:30px;
+}
+
+#u136_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u137 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u138_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u138_container {
+    position:absolute;
+    left:595px;
+    top:70px;
+    width:86px;
+    height:30px;
+}
+
+#u138_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u139 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u140_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u140_container {
+    position:absolute;
+    left:497px;
+    top:70px;
+    width:86px;
+    height:30px;
+}
+
+#u140_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u141 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u142_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u142_container {
+    position:absolute;
+    left:497px;
+    top:100px;
+    width:86px;
+    height:30px;
+}
+
+#u142_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u143 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u144_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u144_container {
+    position:absolute;
+    left:497px;
+    top:130px;
+    width:86px;
+    height:30px;
+}
+
+#u144_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u145 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u146_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u146_container {
+    position:absolute;
+    left:497px;
+    top:160px;
+    width:86px;
+    height:30px;
+}
+
+#u146_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u147 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u148_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u148_container {
+    position:absolute;
+    left:399px;
+    top:70px;
+    width:86px;
+    height:30px;
+}
+
+#u148_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u149 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u150_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u150_container {
+    position:absolute;
+    left:399px;
+    top:160px;
+    width:86px;
+    height:30px;
+}
+
+#u150_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u151 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u152_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u152_container {
+    position:absolute;
+    left:399px;
+    top:100px;
+    width:86px;
+    height:30px;
+}
+
+#u152_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u153 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u154_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u154_container {
+    position:absolute;
+    left:399px;
+    top:130px;
+    width:86px;
+    height:30px;
+}
+
+#u154_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u155 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u156_normal {
+    background-image: url('../Header_files/u173_normal.png');
+}
+
+.u156_container {
+    position:absolute;
+    left:399px;
+    top:190px;
+    width:86px;
+    height:30px;
+}
+
+#u156_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:36px;
+}
+
+.u157 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:82px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u159_normal {
+    background-image: url('../教育程度_files/u159_normal.png');
+}
+
+.u159_container {
+    position:absolute;
+    left:140px;
+    top:90px;
+    width:870px;
+    height:40px;
+}
+
+#u159_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:876px;
+    height:46px;
+}
+
+.u160 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:866px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u161 {
+    position:absolute;
+    left:150px;
+    top:98px;
+    width:230px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u162 {
+    position:absolute;
+    left:800px;
+    top:102px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u164_normal {
+    background-image: url('../教育程度_files/u164_normal.png');
+}
+
+.u164_container {
+    position:absolute;
+    left:140px;
+    top:180px;
+    width:870px;
+    height:728px;
+}
+
+#u164_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:876px;
+    height:734px;
+}
+
+.u165 {
+    position:absolute;
+    left:2px;
+    top:356px;
+    width:866px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u166_normal {
+    background-image: url('../教育程度_files/u166_normal.png');
+}
+
+.u166_container {
+    position:absolute;
+    left:240px;
+    top:140px;
+    width:100px;
+    height:40px;
+}
+
+#u166_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u167 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:96px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u168_normal {
+    background-image: url('../教育程度_files/u168_normal.png');
+}
+
+.u168_container {
+    position:absolute;
+    left:140px;
+    top:140px;
+    width:100px;
+    height:40px;
+}
+
+#u168_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u169 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:96px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u170_normal {
+    background-image: url('../教育程度_files/u170_normal.png');
+}
+
+.u170_container {
+    position:absolute;
+    left:160px;
+    top:252px;
+    width:180px;
+    height:36px;
+}
+
+#u170_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:42px;
+}
+
+.u171 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:176px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u172_normal {
+    background-image: url('../教育程度_files/u172_normal.png');
+}
+
+.u172_container {
+    position:absolute;
+    left:340px;
+    top:252px;
+    width:129px;
+    height:36px;
+}
+
+#u172_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:135px;
+    height:42px;
+}
+
+.u173 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:125px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u174_normal {
+    background-image: url('../教育程度_files/u174_normal.png');
+}
+
+.u174_container {
+    position:absolute;
+    left:469px;
+    top:252px;
+    width:107px;
+    height:36px;
+}
+
+#u174_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:42px;
+}
+
+.u175 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u176_normal {
+    background-image: url('../教育程度_files/u174_normal.png');
+}
+
+.u176_container {
+    position:absolute;
+    left:576px;
+    top:252px;
+    width:107px;
+    height:36px;
+}
+
+#u176_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:42px;
+}
+
+.u177 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u178_normal {
+    background-image: url('../教育程度_files/u178_normal.png');
+}
+
+.u178_container {
+    position:absolute;
+    left:160px;
+    top:288px;
+    width:180px;
+    height:52px;
+}
+
+#u178_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:58px;
+}
+
+.u179 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u180_normal {
+    background-image: url('../教育程度_files/u180_normal.png');
+}
+
+.u180_container {
+    position:absolute;
+    left:340px;
+    top:288px;
+    width:129px;
+    height:52px;
+}
+
+#u180_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:135px;
+    height:58px;
+}
+
+.u181 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:125px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u182_normal {
+    background-image: url('../教育程度_files/u182_normal.png');
+}
+
+.u182_container {
+    position:absolute;
+    left:469px;
+    top:288px;
+    width:107px;
+    height:52px;
+}
+
+#u182_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u183 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u184_normal {
+    background-image: url('../教育程度_files/u182_normal.png');
+}
+
+.u184_container {
+    position:absolute;
+    left:576px;
+    top:288px;
+    width:107px;
+    height:52px;
+}
+
+#u184_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u185 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u186_normal {
+    background-image: url('../教育程度_files/u186_normal.png');
+}
+
+.u186_container {
+    position:absolute;
+    left:683px;
+    top:252px;
+    width:206px;
+    height:36px;
+}
+
+#u186_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:212px;
+    height:42px;
+}
+
+.u187 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:202px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u188_normal {
+    background-image: url('../教育程度_files/u188_normal.png');
+}
+
+.u188_container {
+    position:absolute;
+    left:683px;
+    top:288px;
+    width:206px;
+    height:52px;
+}
+
+#u188_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:212px;
+    height:58px;
+}
+
+.u189 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:202px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u190_normal {
+    background-image: url('../教育程度_files/u190_normal.png');
+}
+
+.u190_container {
+    position:absolute;
+    left:889px;
+    top:252px;
+    width:104px;
+    height:36px;
+}
+
+#u190_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:110px;
+    height:42px;
+}
+
+.u191 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:100px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u192_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u192_container {
+    position:absolute;
+    left:941px;
+    top:288px;
+    width:52px;
+    height:52px;
+}
+
+#u192_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u193 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:48px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u194_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u194_container {
+    position:absolute;
+    left:889px;
+    top:288px;
+    width:52px;
+    height:52px;
+}
+
+#u194_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u195 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:48px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u196 {
+    position:absolute;
+    left:168px;
+    top:302px;
+    width:162px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u197 {
+    position:absolute;
+    left:350px;
+    top:302px;
+    width:109px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u198 {
+    position:absolute;
+    left:479px;
+    top:302px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u199_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u199_container {
+    position:absolute;
+    left:548px;
+    top:306px;
+    width:16px;
+    height:16px;
+}
+
+#u199_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u200 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u201 {
+    position:absolute;
+    left:586px;
+    top:302px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u202_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u202_container {
+    position:absolute;
+    left:655px;
+    top:306px;
+    width:16px;
+    height:16px;
+}
+
+#u202_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u203 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u204 {
+    position:absolute;
+    left:693px;
+    top:302px;
+    width:186px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u205 {
+    position:absolute;
+    left:899px;
+    top:302px;
+    width:34px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u206_normal {
+    background-image: url('../教育程度_files/u178_normal.png');
+}
+
+.u206_container {
+    position:absolute;
+    left:160px;
+    top:340px;
+    width:180px;
+    height:52px;
+}
+
+#u206_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:58px;
+}
+
+.u207 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u208_normal {
+    background-image: url('../教育程度_files/u180_normal.png');
+}
+
+.u208_container {
+    position:absolute;
+    left:340px;
+    top:340px;
+    width:129px;
+    height:52px;
+}
+
+#u208_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:135px;
+    height:58px;
+}
+
+.u209 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:125px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u210_normal {
+    background-image: url('../教育程度_files/u182_normal.png');
+}
+
+.u210_container {
+    position:absolute;
+    left:469px;
+    top:340px;
+    width:107px;
+    height:52px;
+}
+
+#u210_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u211 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u212_normal {
+    background-image: url('../教育程度_files/u182_normal.png');
+}
+
+.u212_container {
+    position:absolute;
+    left:576px;
+    top:340px;
+    width:107px;
+    height:52px;
+}
+
+#u212_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u213 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u214_normal {
+    background-image: url('../教育程度_files/u188_normal.png');
+}
+
+.u214_container {
+    position:absolute;
+    left:683px;
+    top:340px;
+    width:206px;
+    height:52px;
+}
+
+#u214_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:212px;
+    height:58px;
+}
+
+.u215 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:202px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u216_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u216_container {
+    position:absolute;
+    left:941px;
+    top:340px;
+    width:52px;
+    height:52px;
+}
+
+#u216_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u217 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:48px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u218_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u218_container {
+    position:absolute;
+    left:889px;
+    top:340px;
+    width:52px;
+    height:52px;
+}
+
+#u218_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u219 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:48px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u220 {
+    position:absolute;
+    left:168px;
+    top:354px;
+    width:162px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u221 {
+    position:absolute;
+    left:350px;
+    top:354px;
+    width:109px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u222 {
+    position:absolute;
+    left:479px;
+    top:354px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u223_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u223_container {
+    position:absolute;
+    left:548px;
+    top:358px;
+    width:16px;
+    height:16px;
+}
+
+#u223_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u224 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u225 {
+    position:absolute;
+    left:586px;
+    top:354px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u226_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u226_container {
+    position:absolute;
+    left:655px;
+    top:358px;
+    width:16px;
+    height:16px;
+}
+
+#u226_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u227 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u228 {
+    position:absolute;
+    left:693px;
+    top:354px;
+    width:186px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u229 {
+    position:absolute;
+    left:899px;
+    top:354px;
+    width:34px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u230_normal {
+    background-image: url('../教育程度_files/u178_normal.png');
+}
+
+.u230_container {
+    position:absolute;
+    left:160px;
+    top:390px;
+    width:180px;
+    height:52px;
+}
+
+#u230_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:58px;
+}
+
+.u231 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u232_normal {
+    background-image: url('../教育程度_files/u180_normal.png');
+}
+
+.u232_container {
+    position:absolute;
+    left:340px;
+    top:390px;
+    width:129px;
+    height:52px;
+}
+
+#u232_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:135px;
+    height:58px;
+}
+
+.u233 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:125px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u234_normal {
+    background-image: url('../教育程度_files/u182_normal.png');
+}
+
+.u234_container {
+    position:absolute;
+    left:469px;
+    top:390px;
+    width:107px;
+    height:52px;
+}
+
+#u234_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u235 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u236_normal {
+    background-image: url('../教育程度_files/u182_normal.png');
+}
+
+.u236_container {
+    position:absolute;
+    left:576px;
+    top:390px;
+    width:107px;
+    height:52px;
+}
+
+#u236_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u237 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u238_normal {
+    background-image: url('../教育程度_files/u188_normal.png');
+}
+
+.u238_container {
+    position:absolute;
+    left:683px;
+    top:390px;
+    width:206px;
+    height:52px;
+}
+
+#u238_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:212px;
+    height:58px;
+}
+
+.u239 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:202px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u240_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u240_container {
+    position:absolute;
+    left:941px;
+    top:390px;
+    width:52px;
+    height:52px;
+}
+
+#u240_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u241 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:48px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u242_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u242_container {
+    position:absolute;
+    left:889px;
+    top:390px;
+    width:52px;
+    height:52px;
+}
+
+#u242_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u243 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:48px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u244 {
+    position:absolute;
+    left:168px;
+    top:404px;
+    width:162px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u245 {
+    position:absolute;
+    left:350px;
+    top:404px;
+    width:109px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u246 {
+    position:absolute;
+    left:479px;
+    top:404px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u247_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u247_container {
+    position:absolute;
+    left:548px;
+    top:408px;
+    width:16px;
+    height:16px;
+}
+
+#u247_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u248 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u249 {
+    position:absolute;
+    left:586px;
+    top:404px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u250_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u250_container {
+    position:absolute;
+    left:655px;
+    top:408px;
+    width:16px;
+    height:16px;
+}
+
+#u250_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u251 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u252 {
+    position:absolute;
+    left:693px;
+    top:404px;
+    width:186px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u253 {
+    position:absolute;
+    left:899px;
+    top:404px;
+    width:34px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u254_normal {
+    background-image: url('../教育程度_files/u178_normal.png');
+}
+
+.u254_container {
+    position:absolute;
+    left:160px;
+    top:442px;
+    width:180px;
+    height:52px;
+}
+
+#u254_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:58px;
+}
+
+.u255 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u256_normal {
+    background-image: url('../教育程度_files/u180_normal.png');
+}
+
+.u256_container {
+    position:absolute;
+    left:340px;
+    top:442px;
+    width:129px;
+    height:52px;
+}
+
+#u256_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:135px;
+    height:58px;
+}
+
+.u257 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:125px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u258_normal {
+    background-image: url('../教育程度_files/u182_normal.png');
+}
+
+.u258_container {
+    position:absolute;
+    left:469px;
+    top:442px;
+    width:107px;
+    height:52px;
+}
+
+#u258_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u259 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u260_normal {
+    background-image: url('../教育程度_files/u182_normal.png');
+}
+
+.u260_container {
+    position:absolute;
+    left:576px;
+    top:442px;
+    width:107px;
+    height:52px;
+}
+
+#u260_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u261 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u262_normal {
+    background-image: url('../教育程度_files/u188_normal.png');
+}
+
+.u262_container {
+    position:absolute;
+    left:683px;
+    top:442px;
+    width:206px;
+    height:52px;
+}
+
+#u262_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:212px;
+    height:58px;
+}
+
+.u263 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:202px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u264_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u264_container {
+    position:absolute;
+    left:941px;
+    top:442px;
+    width:52px;
+    height:52px;
+}
+
+#u264_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u265 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:48px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u266_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u266_container {
+    position:absolute;
+    left:889px;
+    top:442px;
+    width:52px;
+    height:52px;
+}
+
+#u266_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u267 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:48px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u268 {
+    position:absolute;
+    left:168px;
+    top:456px;
+    width:162px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u269 {
+    position:absolute;
+    left:350px;
+    top:456px;
+    width:109px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u270 {
+    position:absolute;
+    left:479px;
+    top:456px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u271_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u271_container {
+    position:absolute;
+    left:548px;
+    top:460px;
+    width:16px;
+    height:16px;
+}
+
+#u271_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u272 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u273 {
+    position:absolute;
+    left:586px;
+    top:456px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u274_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u274_container {
+    position:absolute;
+    left:655px;
+    top:460px;
+    width:16px;
+    height:16px;
+}
+
+#u274_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u275 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u276 {
+    position:absolute;
+    left:693px;
+    top:456px;
+    width:186px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u277 {
+    position:absolute;
+    left:899px;
+    top:456px;
+    width:34px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u278_normal {
+    background-image: url('../教育程度_files/u278_normal.png');
+}
+
+.u278_container {
+    position:absolute;
+    left:160px;
+    top:494px;
+    width:180px;
+    height:52px;
+}
+
+#u278_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:58px;
+}
+
+.u279 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u280_normal {
+    background-image: url('../教育程度_files/u280_normal.png');
+}
+
+.u280_container {
+    position:absolute;
+    left:340px;
+    top:494px;
+    width:129px;
+    height:52px;
+}
+
+#u280_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:135px;
+    height:58px;
+}
+
+.u281 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:125px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u282_normal {
+    background-image: url('../教育程度_files/u282_normal.png');
+}
+
+.u282_container {
+    position:absolute;
+    left:469px;
+    top:494px;
+    width:107px;
+    height:52px;
+}
+
+#u282_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u283 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u284_normal {
+    background-image: url('../教育程度_files/u282_normal.png');
+}
+
+.u284_container {
+    position:absolute;
+    left:576px;
+    top:494px;
+    width:107px;
+    height:52px;
+}
+
+#u284_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u285 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u286_normal {
+    background-image: url('../教育程度_files/u286_normal.png');
+}
+
+.u286_container {
+    position:absolute;
+    left:683px;
+    top:494px;
+    width:206px;
+    height:52px;
+}
+
+#u286_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:212px;
+    height:58px;
+}
+
+.u287 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:202px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u288_normal {
+    background-image: url('../教育程度_files/u288_normal.png');
+}
+
+.u288_container {
+    position:absolute;
+    left:889px;
+    top:494px;
+    width:104px;
+    height:52px;
+}
+
+#u288_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:110px;
+    height:58px;
+}
+
+.u289 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u290 {
+    position:absolute;
+    left:168px;
+    top:508px;
+    width:162px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u291 {
+    position:absolute;
+    left:350px;
+    top:508px;
+    width:109px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u292 {
+    position:absolute;
+    left:479px;
+    top:508px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u293_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u293_container {
+    position:absolute;
+    left:548px;
+    top:512px;
+    width:16px;
+    height:16px;
+}
+
+#u293_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u294 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u295 {
+    position:absolute;
+    left:586px;
+    top:508px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u296_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u296_container {
+    position:absolute;
+    left:655px;
+    top:512px;
+    width:16px;
+    height:16px;
+}
+
+#u296_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u297 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u298 {
+    position:absolute;
+    left:693px;
+    top:508px;
+    width:186px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u299 {
+    position:absolute;
+    left:906px;
+    top:508px;
+    width:71px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u300 {
+    position:absolute;
+    left:160px;
+    top:216px;
+    width:150px;
+    height:27px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u301_normal {
+    background-image: url('../教育程度_files/u170_normal.png');
+}
+
+.u301_container {
+    position:absolute;
+    left:160px;
+    top:615px;
+    width:180px;
+    height:36px;
+}
+
+#u301_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:42px;
+}
+
+.u302 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:176px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u303_normal {
+    background-image: url('../教育程度_files/u172_normal.png');
+}
+
+.u303_container {
+    position:absolute;
+    left:340px;
+    top:615px;
+    width:129px;
+    height:36px;
+}
+
+#u303_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:135px;
+    height:42px;
+}
+
+.u304 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:125px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u305_normal {
+    background-image: url('../教育程度_files/u174_normal.png');
+}
+
+.u305_container {
+    position:absolute;
+    left:469px;
+    top:615px;
+    width:107px;
+    height:36px;
+}
+
+#u305_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:42px;
+}
+
+.u306 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u307_normal {
+    background-image: url('../教育程度_files/u178_normal.png');
+}
+
+.u307_container {
+    position:absolute;
+    left:160px;
+    top:651px;
+    width:180px;
+    height:52px;
+}
+
+#u307_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:58px;
+}
+
+.u308 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u309_normal {
+    background-image: url('../教育程度_files/u180_normal.png');
+}
+
+.u309_container {
+    position:absolute;
+    left:340px;
+    top:651px;
+    width:129px;
+    height:52px;
+}
+
+#u309_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:135px;
+    height:58px;
+}
+
+.u310 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:125px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u311_normal {
+    background-image: url('../教育程度_files/u182_normal.png');
+}
+
+.u311_container {
+    position:absolute;
+    left:469px;
+    top:651px;
+    width:107px;
+    height:52px;
+}
+
+#u311_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u312 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u313_normal {
+    background-image: url('../教育程度_files/u313_normal.png');
+}
+
+.u313_container {
+    position:absolute;
+    left:576px;
+    top:615px;
+    width:313px;
+    height:36px;
+}
+
+#u313_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:319px;
+    height:42px;
+}
+
+.u314 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:309px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u315_normal {
+    background-image: url('../教育程度_files/u315_normal.png');
+}
+
+.u315_container {
+    position:absolute;
+    left:576px;
+    top:651px;
+    width:313px;
+    height:52px;
+}
+
+#u315_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:319px;
+    height:58px;
+}
+
+.u316 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:309px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u317_normal {
+    background-image: url('../教育程度_files/u190_normal.png');
+}
+
+.u317_container {
+    position:absolute;
+    left:889px;
+    top:615px;
+    width:104px;
+    height:36px;
+}
+
+#u317_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:110px;
+    height:42px;
+}
+
+.u318 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:100px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u319_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u319_container {
+    position:absolute;
+    left:941px;
+    top:651px;
+    width:52px;
+    height:52px;
+}
+
+#u319_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u320 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:48px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u321_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u321_container {
+    position:absolute;
+    left:889px;
+    top:651px;
+    width:52px;
+    height:52px;
+}
+
+#u321_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u322 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:48px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u323 {
+    position:absolute;
+    left:168px;
+    top:665px;
+    width:162px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u324 {
+    position:absolute;
+    left:350px;
+    top:665px;
+    width:109px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u325 {
+    position:absolute;
+    left:479px;
+    top:665px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u326_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u326_container {
+    position:absolute;
+    left:548px;
+    top:669px;
+    width:16px;
+    height:16px;
+}
+
+#u326_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u327 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u328 {
+    position:absolute;
+    left:735px;
+    top:665px;
+    width:144px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u329 {
+    position:absolute;
+    left:899px;
+    top:665px;
+    width:34px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u330 {
+    position:absolute;
+    left:160px;
+    top:579px;
+    width:150px;
+    height:27px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u331 {
+    position:absolute;
+    left:586px;
+    top:665px;
+    width:139px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u332_normal {
+    background-image: url('../教育程度_files/u178_normal.png');
+}
+
+.u332_container {
+    position:absolute;
+    left:160px;
+    top:703px;
+    width:180px;
+    height:52px;
+}
+
+#u332_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:58px;
+}
+
+.u333 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u334_normal {
+    background-image: url('../教育程度_files/u180_normal.png');
+}
+
+.u334_container {
+    position:absolute;
+    left:340px;
+    top:703px;
+    width:129px;
+    height:52px;
+}
+
+#u334_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:135px;
+    height:58px;
+}
+
+.u335 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:125px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u336_normal {
+    background-image: url('../教育程度_files/u182_normal.png');
+}
+
+.u336_container {
+    position:absolute;
+    left:469px;
+    top:703px;
+    width:107px;
+    height:52px;
+}
+
+#u336_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u337 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u338_normal {
+    background-image: url('../教育程度_files/u315_normal.png');
+}
+
+.u338_container {
+    position:absolute;
+    left:576px;
+    top:703px;
+    width:313px;
+    height:52px;
+}
+
+#u338_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:319px;
+    height:58px;
+}
+
+.u339 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:309px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u340_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u340_container {
+    position:absolute;
+    left:941px;
+    top:703px;
+    width:52px;
+    height:52px;
+}
+
+#u340_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u341 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:48px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u342_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u342_container {
+    position:absolute;
+    left:889px;
+    top:703px;
+    width:52px;
+    height:52px;
+}
+
+#u342_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u343 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:48px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u344 {
+    position:absolute;
+    left:168px;
+    top:717px;
+    width:162px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u345 {
+    position:absolute;
+    left:350px;
+    top:717px;
+    width:109px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u346 {
+    position:absolute;
+    left:479px;
+    top:717px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u347_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u347_container {
+    position:absolute;
+    left:548px;
+    top:721px;
+    width:16px;
+    height:16px;
+}
+
+#u347_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u348 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u349 {
+    position:absolute;
+    left:735px;
+    top:717px;
+    width:144px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u350 {
+    position:absolute;
+    left:899px;
+    top:717px;
+    width:34px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u351 {
+    position:absolute;
+    left:586px;
+    top:717px;
+    width:139px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u352_normal {
+    background-image: url('../教育程度_files/u178_normal.png');
+}
+
+.u352_container {
+    position:absolute;
+    left:160px;
+    top:755px;
+    width:180px;
+    height:52px;
+}
+
+#u352_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:58px;
+}
+
+.u353 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u354_normal {
+    background-image: url('../教育程度_files/u180_normal.png');
+}
+
+.u354_container {
+    position:absolute;
+    left:340px;
+    top:755px;
+    width:129px;
+    height:52px;
+}
+
+#u354_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:135px;
+    height:58px;
+}
+
+.u355 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:125px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u356_normal {
+    background-image: url('../教育程度_files/u182_normal.png');
+}
+
+.u356_container {
+    position:absolute;
+    left:469px;
+    top:755px;
+    width:107px;
+    height:52px;
+}
+
+#u356_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u357 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u358_normal {
+    background-image: url('../教育程度_files/u315_normal.png');
+}
+
+.u358_container {
+    position:absolute;
+    left:576px;
+    top:755px;
+    width:313px;
+    height:52px;
+}
+
+#u358_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:319px;
+    height:58px;
+}
+
+.u359 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:309px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u360_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u360_container {
+    position:absolute;
+    left:941px;
+    top:755px;
+    width:52px;
+    height:52px;
+}
+
+#u360_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u361 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:48px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u362_normal {
+    background-image: url('../教育程度_files/u192_normal.png');
+}
+
+.u362_container {
+    position:absolute;
+    left:889px;
+    top:755px;
+    width:52px;
+    height:52px;
+}
+
+#u362_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:58px;
+}
+
+.u363 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:48px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u364 {
+    position:absolute;
+    left:168px;
+    top:769px;
+    width:162px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u365 {
+    position:absolute;
+    left:350px;
+    top:769px;
+    width:109px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u366 {
+    position:absolute;
+    left:479px;
+    top:769px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u367_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u367_container {
+    position:absolute;
+    left:548px;
+    top:773px;
+    width:16px;
+    height:16px;
+}
+
+#u367_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u368 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u369 {
+    position:absolute;
+    left:735px;
+    top:769px;
+    width:144px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u370 {
+    position:absolute;
+    left:899px;
+    top:769px;
+    width:34px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u371 {
+    position:absolute;
+    left:586px;
+    top:769px;
+    width:139px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u372_normal {
+    background-image: url('../教育程度_files/u278_normal.png');
+}
+
+.u372_container {
+    position:absolute;
+    left:160px;
+    top:807px;
+    width:180px;
+    height:52px;
+}
+
+#u372_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:58px;
+}
+
+.u373 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u374_normal {
+    background-image: url('../教育程度_files/u280_normal.png');
+}
+
+.u374_container {
+    position:absolute;
+    left:340px;
+    top:807px;
+    width:129px;
+    height:52px;
+}
+
+#u374_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:135px;
+    height:58px;
+}
+
+.u375 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:125px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u376_normal {
+    background-image: url('../教育程度_files/u282_normal.png');
+}
+
+.u376_container {
+    position:absolute;
+    left:469px;
+    top:807px;
+    width:107px;
+    height:52px;
+}
+
+#u376_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:58px;
+}
+
+.u377 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:103px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u378_normal {
+    background-image: url('../教育程度_files/u378_normal.png');
+}
+
+.u378_container {
+    position:absolute;
+    left:576px;
+    top:807px;
+    width:313px;
+    height:52px;
+}
+
+#u378_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:319px;
+    height:58px;
+}
+
+.u379 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:309px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u380 {
+    position:absolute;
+    left:168px;
+    top:821px;
+    width:162px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u381 {
+    position:absolute;
+    left:350px;
+    top:821px;
+    width:109px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u382 {
+    position:absolute;
+    left:479px;
+    top:821px;
+    width:87px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u383_normal {
+    background-image: url('../教育程度_files/u199_normal.png');
+}
+
+.u383_container {
+    position:absolute;
+    left:548px;
+    top:825px;
+    width:16px;
+    height:16px;
+}
+
+#u383_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u384 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u385 {
+    position:absolute;
+    left:735px;
+    top:821px;
+    width:144px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u386 {
+    position:absolute;
+    left:586px;
+    top:821px;
+    width:139px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u387_normal {
+    background-image: url('../教育程度_files/u288_normal.png');
+}
+
+.u387_container {
+    position:absolute;
+    left:889px;
+    top:807px;
+    width:104px;
+    height:52px;
+}
+
+#u387_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:110px;
+    height:58px;
+}
+
+.u388 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u389 {
+    position:absolute;
+    left:906px;
+    top:820px;
+    width:71px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Microsoft YaHei';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u390 {
+    position:absolute;
+    left:469px;
+    top:225px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u391 {
+    position:absolute;
+    left:469px;
+    top:588px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u392_line {
+    background-image: url('../footer_files/u0_line.png');
+}
+
+.u392_line {
+    position:absolute;
+    left:0px;
+    top:2px;
+    width:1000px;
+    height:7px;
+}
+
+.u392 {
+    position:absolute;
+    left:10px;
+    top:918px;
+    width:1000px;
+    height:10px;
+    
+}
+
+.u393 {
+    position:absolute;
+    left:310px;
+    top:938px;
+    width:326px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u395_normal {
+    background-image: url('../教育程度_files/u168_normal.png');
+}
+
+.u395_container {
+    position:absolute;
+    left:710px;
+    top:140px;
+    width:100px;
+    height:40px;
+}
+
+#u395_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u396 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u397_normal {
+    background-image: url('../教育程度_files/u168_normal.png');
+}
+
+.u397_container {
+    position:absolute;
+    left:910px;
+    top:140px;
+    width:100px;
+    height:40px;
+}
+
+#u397_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u398 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u399_normal {
+    background-image: url('../教育程度_files/u168_normal.png');
+}
+
+.u399_container {
+    position:absolute;
+    left:810px;
+    top:140px;
+    width:100px;
+    height:40px;
+}
+
+#u399_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u400 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u401_normal {
+    background-image: url('../教育程度_files/u168_normal.png');
+}
+
+.u401_container {
+    position:absolute;
+    left:340px;
+    top:140px;
+    width:100px;
+    height:40px;
+}
+
+#u401_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u402 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

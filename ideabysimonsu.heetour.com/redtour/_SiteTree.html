@@ -1,0 +1,301 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><link href="Resources/axurerpprototype.css" type="text/css" rel="stylesheet"></HEAD>
+<BODY>
+<A href=# onclick='parent.CloseSitemap()' style='font-size:8pt'>Close Frames</A><br><br>
+
+<SCRIPT LANGUAGE="JavaScript">
+image1 = new Image();
+image1.src = 'Resources/plus.gif';
+
+function CloseSitemap()
+{
+	parent.URL = parent.mainFrame.URL
+}
+
+function ToggleDiv(node, id)
+{
+	sibling = document.getElementById(id);
+	if (sibling.style.display == 'none')
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/minus.gif";
+			}
+		}
+
+		sibling.style.display = '';
+	}
+	else
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/plus.gif";
+			}
+		}
+		sibling.style.display = 'none';
+	}
+}
+
+var currentPage = null;
+
+function highlight(id)
+{
+	if (currentPage != null)
+	{
+		currentPage.style.backgroundColor = '#EEEEFF';
+		currentPage.style.paddingLeft = '0px';
+		currentPage.style.paddingRight = '0px';
+		currentPage.style.border = '0px solid #666666';
+	}
+	
+	currentPage = document.getElementById(id);
+    if (currentPage) {
+	    currentPage.style.backgroundColor = '#DDDDDD';
+	    currentPage.style.paddingLeft = '3px';
+	    currentPage.style.paddingRight = '3px';
+	    currentPage.style.border = '1px solid #666666';
+    }
+}
+
+</SCRIPT>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onclick="parent.mainFrame.location='首页.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pd1065e28acee4776be9275546196dbf4">首页</SPAN></A><DIV id="tdd1065e28acee4776be9275546196dbf4">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd2d45f0e0e4d8480f94e529c2c24c81c3')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='旅游线路.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p2d45f0e0e4d8480f94e529c2c24c81c3">旅游线路</SPAN></A><DIV id="d2d45f0e0e4d8480f94e529c2c24c81c3">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='详细页.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p779c8c6232f6414f96283ff7bc8e07b3">详细页</SPAN></A><DIV id="td779c8c6232f6414f96283ff7bc8e07b3">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='填写预订页.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p153792f85a5f43a9bbfc92c947f24e2a">填写预订页</SPAN></A><DIV id="td153792f85a5f43a9bbfc92c947f24e2a">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='提交成功.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pf466a0a66cba417bb7fecb5393e825c4">提交成功</SPAN></A><DIV id="tdf466a0a66cba417bb7fecb5393e825c4">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'df1b37642efeb4e3a96234c3567119ed7')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='会议接待.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pf1b37642efeb4e3a96234c3567119ed7">会议接待</SPAN></A><DIV id="df1b37642efeb4e3a96234c3567119ed7">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd79958c4c49294761936584bc50d6b0c4')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='案例列表.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p79958c4c49294761936584bc50d6b0c4">案例列表</SPAN></A><DIV id="d79958c4c49294761936584bc50d6b0c4">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='案例详细展示.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pda0f10dc0d6640be8ade396ad668b44d">案例详细展示</SPAN></A><DIV id="tdda0f10dc0d6640be8ade396ad668b44d">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='服务项目详细.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p4902c1da49f8494092a39cd2a437978c">服务项目详细</SPAN></A><DIV id="td4902c1da49f8494092a39cd2a437978c">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='更多服务企业.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p4917aeaa8f8a42409da0946a5f278211">更多服务企业</SPAN></A><DIV id="td4917aeaa8f8a42409da0946a5f278211">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onclick="parent.mainFrame.location='特惠机票.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p563ab1b3f73b475498caa986aa6dc02d">特惠机票</SPAN></A><DIV id="td563ab1b3f73b475498caa986aa6dc02d">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd794aa43f4fa84d1bb6ee8acb911c11b9')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='海南酒店.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p794aa43f4fa84d1bb6ee8acb911c11b9">海南酒店</SPAN></A><DIV id="d794aa43f4fa84d1bb6ee8acb911c11b9">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='酒店详细页.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p38d8902d24084c9ea168703d4bf2a988">酒店详细页</SPAN></A><DIV id="td38d8902d24084c9ea168703d4bf2a988">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd81cb11896f194576838ca678a6c9f73f')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='海南景点.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p81cb11896f194576838ca678a6c9f73f">海南景点</SPAN></A><DIV id="d81cb11896f194576838ca678a6c9f73f">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='景点详细.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pd39b55ad29b5431f9480e2e7f93186cf">景点详细</SPAN></A><DIV id="tdd39b55ad29b5431f9480e2e7f93186cf">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd58216565ba714da7b629fd064b2ccda3')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='旅游指南.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p58216565ba714da7b629fd064b2ccda3">旅游指南</SPAN></A><DIV id="d58216565ba714da7b629fd064b2ccda3">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='资讯详细页.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p6ad6bcdbee6a44fb8c727eb9b0fbad46">资讯详细页</SPAN></A><DIV id="td6ad6bcdbee6a44fb8c727eb9b0fbad46">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onclick="parent.mainFrame.location='在线问答.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p831a3d9bd30643ca97962786331bd119">在线问答</SPAN></A><DIV id="td831a3d9bd30643ca97962786331bd119">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'dee613c953171433a8e39758bf453c772')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='会员中心.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pee613c953171433a8e39758bf453c772">会员中心</SPAN></A><DIV id="dee613c953171433a8e39758bf453c772">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='会员登录.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p332223e7d8804944b741a650f821e7cb">会员登录</SPAN></A><DIV id="td332223e7d8804944b741a650f821e7cb">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='会员注册.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p24f687492fb44ef3b069c54fd71c27cc">会员注册</SPAN></A><DIV id="td24f687492fb44ef3b069c54fd71c27cc">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='找回密码.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pe8702a2a28054f52ae5d318f8d3c47ad">找回密码</SPAN></A><DIV id="tde8702a2a28054f52ae5d318f8d3c47ad">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='个人资料.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p3356e5aa4c744709bfe2eed39e1b5fd0">个人资料</SPAN></A><DIV id="td3356e5aa4c744709bfe2eed39e1b5fd0">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='密码修改.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pa916011562ce4f73807b5ae1ef49eab3">密码修改</SPAN></A><DIV id="tda916011562ce4f73807b5ae1ef49eab3">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='我的提问.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p8b1bd907217a481a895ae710a00b9c67">我的提问</SPAN></A><DIV id="td8b1bd907217a481a895ae710a00b9c67">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='我的评论.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p3957c25f29624551b8f78be56ea907fc">我的评论</SPAN></A><DIV id="td3957c25f29624551b8f78be56ea907fc">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd49003b1bb16c467cac02f61db1fabb6d')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='订单列表.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p49003b1bb16c467cac02f61db1fabb6d">订单列表</SPAN></A><DIV id="d49003b1bb16c467cac02f61db1fabb6d">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='选择支付方式.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p12e997839f0c4ea6befd544ab1d05613">选择支付方式</SPAN></A><DIV id="td12e997839f0c4ea6befd544ab1d05613">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd9677547c30414196befcfae149af9955')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='帮助中心_站点相关.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p9677547c30414196befcfae149af9955">帮助中心&amp;站点相关</SPAN></A><DIV id="d9677547c30414196befcfae149af9955">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='帮助查看页.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p37bf093ac27543c1880a2749348a4b5b">帮助查看页</SPAN></A><DIV id="td37bf093ac27543c1880a2749348a4b5b">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='快递支付通道.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pc0127db1b06643ab8a257d717786a5ce">快递支付通道</SPAN></A><DIV id="tdc0127db1b06643ab8a257d717786a5ce">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE></BODY></HTML>

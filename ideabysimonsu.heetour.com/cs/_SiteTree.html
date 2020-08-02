@@ -1,0 +1,260 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><link href="Resources/axurerpprototype.css" type="text/css" rel="stylesheet"></HEAD>
+<BODY>
+<A href=# onclick='parent.CloseSitemap()' style='font-size:8pt'>Close Frames</A><br><br>
+
+<SCRIPT LANGUAGE="JavaScript">
+image1 = new Image();
+image1.src = 'Resources/plus.gif';
+
+function CloseSitemap()
+{
+	parent.URL = parent.mainFrame.URL
+}
+
+function ToggleDiv(node, id)
+{
+	sibling = document.getElementById(id);
+	if (sibling.style.display == 'none')
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/minus.gif";
+			}
+		}
+
+		sibling.style.display = '';
+	}
+	else
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/plus.gif";
+			}
+		}
+		sibling.style.display = 'none';
+	}
+}
+
+var currentPage = null;
+
+function highlight(id)
+{
+	if (currentPage != null)
+	{
+		currentPage.style.backgroundColor = '#EEEEFF';
+		currentPage.style.paddingLeft = '0px';
+		currentPage.style.paddingRight = '0px';
+		currentPage.style.border = '0px solid #666666';
+	}
+	
+	currentPage = document.getElementById(id);
+    if (currentPage) {
+	    currentPage.style.backgroundColor = '#DDDDDD';
+	    currentPage.style.paddingLeft = '3px';
+	    currentPage.style.paddingRight = '3px';
+	    currentPage.style.border = '1px solid #666666';
+    }
+}
+
+</SCRIPT>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd38ce00bbe8204dfd8aaecd2f84598727')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='后台管理系统.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p38ce00bbe8204dfd8aaecd2f84598727">后台管理系统</SPAN></A><DIV id="d38ce00bbe8204dfd8aaecd2f84598727">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='后台首页.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p2219987bc122448389d6de94fa9b50b1">后台首页</SPAN></A><DIV id="td2219987bc122448389d6de94fa9b50b1">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='系统设置.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p638690ca654e4dde88e1d0f42b5fdbed">系统设置</SPAN></A><DIV id="td638690ca654e4dde88e1d0f42b5fdbed">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'de90169e96c474a0ba2212ed0bc6413d3')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='终端机管理列表.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pe90169e96c474a0ba2212ed0bc6413d3">终端机管理列表</SPAN></A><DIV id="de90169e96c474a0ba2212ed0bc6413d3">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='添加修改终端机.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pe23a91397bf24a11b6acc481d473077f">添加修改终端机</SPAN></A><DIV id="tde23a91397bf24a11b6acc481d473077f">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd94589daee7fb4029a7db3d95c19e5298')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='广告管理列表.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p94589daee7fb4029a7db3d95c19e5298">广告管理列表</SPAN></A><DIV id="d94589daee7fb4029a7db3d95c19e5298">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='添加修改广告.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p775b74f5b1fe449e896411aae8116be7">添加修改广告</SPAN></A><DIV id="td775b74f5b1fe449e896411aae8116be7">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='广告位状态表.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p8c5da0aac27144488bc2a32a47ec9e90">广告位状态表</SPAN></A><DIV id="td8c5da0aac27144488bc2a32a47ec9e90">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd156f52230db44d43b5d8634f6ac5a117')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='网站前端.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p156f52230db44d43b5d8634f6ac5a117">网站前端</SPAN></A><DIV id="d156f52230db44d43b5d8634f6ac5a117">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='公司简介.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pdf494f24668c48bc906ae9a0f3baedf2">公司简介</SPAN></A><DIV id="tddf494f24668c48bc906ae9a0f3baedf2">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='服务案例.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p46e04c9b60f74ca1831bd89639f5d1ff">服务案例</SPAN></A><DIV id="td46e04c9b60f74ca1831bd89639f5d1ff">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='平台资源.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p5a10ccd4171b42c09b041fe1271b6db5">平台资源</SPAN></A><DIV id="td5a10ccd4171b42c09b041fe1271b6db5">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='服务项目.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p896e519d5b1d445bad1be556cc10c806">服务项目</SPAN></A><DIV id="td896e519d5b1d445bad1be556cc10c806">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='新闻动态.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pb7e44f1fe94d41cab2804815c7169254">新闻动态</SPAN></A><DIV id="tdb7e44f1fe94d41cab2804815c7169254">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='联系我们.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p9ca48daeebce4be2bc36f8050e9bdda5">联系我们</SPAN></A><DIV id="td9ca48daeebce4be2bc36f8050e9bdda5">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd149f0bb4765646088f6b04af9618bfec')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='终端机前端.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p149f0bb4765646088f6b04af9618bfec">终端机前端</SPAN></A><DIV id="d149f0bb4765646088f6b04af9618bfec">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='优惠券.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pb10ebd13147445dca01e56a213d8ccc2">优惠券</SPAN></A><DIV id="tdb10ebd13147445dca01e56a213d8ccc2">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd73d7ee19210a4883bc8292057294c07d')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='嘻游尚品卡[打印为首].html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p73d7ee19210a4883bc8292057294c07d">嘻游尚品卡(打印为首)</SPAN></A><DIV id="d73d7ee19210a4883bc8292057294c07d">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='使用说明.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p5084d3fc497e4f9f837c2907903258fb">使用说明</SPAN></A><DIV id="td5084d3fc497e4f9f837c2907903258fb">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='余额查询.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p429f3806f65b4e12974bd9b444ee19f8">余额查询</SPAN></A><DIV id="td429f3806f65b4e12974bd9b444ee19f8">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='消费记录.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p0c7bffbc4a214be5839b13a9da518b0b">消费记录</SPAN></A><DIV id="td0c7bffbc4a214be5839b13a9da518b0b">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='在线充值.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p7dcbe29b08a146989a0217d651e6b3d6">在线充值</SPAN></A><DIV id="td7dcbe29b08a146989a0217d651e6b3d6">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='修改密码.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pfbc35902b4d94d08ba6d8fad03affbdd">修改密码</SPAN></A><DIV id="tdfbc35902b4d94d08ba6d8fad03affbdd">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='修改档案.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pe4bf13a6806f4b848645bf2274988399">修改档案</SPAN></A><DIV id="tde4bf13a6806f4b848645bf2274988399">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='在线挂失.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pc860754446e14ec0adc7a576f6f6b66c">在线挂失</SPAN></A><DIV id="tdc860754446e14ec0adc7a576f6f6b66c">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE></BODY></HTML>

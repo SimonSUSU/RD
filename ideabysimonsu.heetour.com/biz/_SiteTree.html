@@ -1,0 +1,109 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><link href="Resources/axurerpprototype.css" type="text/css" rel="stylesheet"></HEAD>
+<BODY>
+<A href=# onclick='parent.CloseSitemap()' style='font-size:8pt'>Close Frames</A><br><br>
+
+<SCRIPT LANGUAGE="JavaScript">
+image1 = new Image();
+image1.src = 'Resources/plus.gif';
+
+function CloseSitemap()
+{
+	parent.URL = parent.mainFrame.URL
+}
+
+function ToggleDiv(node, id)
+{
+	sibling = document.getElementById(id);
+	if (sibling.style.display == 'none')
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/minus.gif";
+			}
+		}
+
+		sibling.style.display = '';
+	}
+	else
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/plus.gif";
+			}
+		}
+		sibling.style.display = 'none';
+	}
+}
+
+var currentPage = null;
+
+function highlight(id)
+{
+	if (currentPage != null)
+	{
+		currentPage.style.backgroundColor = '#EEEEFF';
+		currentPage.style.paddingLeft = '0px';
+		currentPage.style.paddingRight = '0px';
+		currentPage.style.border = '0px solid #666666';
+	}
+	
+	currentPage = document.getElementById(id);
+    if (currentPage) {
+	    currentPage.style.backgroundColor = '#DDDDDD';
+	    currentPage.style.paddingLeft = '3px';
+	    currentPage.style.paddingRight = '3px';
+	    currentPage.style.border = '1px solid #666666';
+    }
+}
+
+</SCRIPT>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd9be642c9f99a41d0bc9aeea3e60f352d')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='合作商管理.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p9be642c9f99a41d0bc9aeea3e60f352d">合作商管理</SPAN></A><DIV id="d9be642c9f99a41d0bc9aeea3e60f352d">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='基本资料.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p0f1e295d491a4f89abbf6bed8d3d9555">基本资料</SPAN></A><DIV id="td0f1e295d491a4f89abbf6bed8d3d9555">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='所属品牌管理.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p6abdb4b8d0ce4921827fc7a82eaede5b">所属品牌管理</SPAN></A><DIV id="td6abdb4b8d0ce4921827fc7a82eaede5b">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='合同_三证管理.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p5c59ef3bde4d484a8baf8d629cfbbc95">合同&amp;三证管理</SPAN></A><DIV id="td5c59ef3bde4d484a8baf8d629cfbbc95">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='店铺管理.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pb69cd3f3fd2a4c7fb97c81dc47062502">店铺管理</SPAN></A><DIV id="tdb69cd3f3fd2a4c7fb97c81dc47062502">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onclick="parent.mainFrame.location='合作商收款管理.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p7b97cb1bf9794725a3adc8f5b23e8dc0">合作商收款管理</SPAN></A><DIV id="td7b97cb1bf9794725a3adc8f5b23e8dc0">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE></BODY></HTML>

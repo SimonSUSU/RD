@@ -1,0 +1,245 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><link href="Resources/axurerpprototype.css" type="text/css" rel="stylesheet"></HEAD>
+<BODY>
+<A href=# onclick='parent.CloseSitemap()' style='font-size:8pt'>Close Frames</A><br><br>
+
+<SCRIPT LANGUAGE="JavaScript">
+image1 = new Image();
+image1.src = 'Resources/plus.gif';
+
+function CloseSitemap()
+{
+	parent.URL = parent.mainFrame.URL
+}
+
+function ToggleDiv(node, id)
+{
+	sibling = document.getElementById(id);
+	if (sibling.style.display == 'none')
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/minus.gif";
+			}
+		}
+
+		sibling.style.display = '';
+	}
+	else
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/plus.gif";
+			}
+		}
+		sibling.style.display = 'none';
+	}
+}
+
+var currentPage = null;
+
+function highlight(id)
+{
+	if (currentPage != null)
+	{
+		currentPage.style.backgroundColor = '#EEEEFF';
+		currentPage.style.paddingLeft = '0px';
+		currentPage.style.paddingRight = '0px';
+		currentPage.style.border = '0px solid #666666';
+	}
+	
+	currentPage = document.getElementById(id);
+    if (currentPage) {
+	    currentPage.style.backgroundColor = '#DDDDDD';
+	    currentPage.style.paddingLeft = '3px';
+	    currentPage.style.paddingRight = '3px';
+	    currentPage.style.border = '1px solid #666666';
+    }
+}
+
+</SCRIPT>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd88c26e44e74143b2a00178f425d00613')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='index.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p88c26e44e74143b2a00178f425d00613">index</SPAN></A><DIV id="d88c26e44e74143b2a00178f425d00613">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='backend-login.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p4f77007bef1b449e9c65fd3be6ade820">backend-login</SPAN></A><DIV id="td4f77007bef1b449e9c65fd3be6ade820">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='login.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pcfd0e2b9a999403dacedf336fa9fb9ff">login</SPAN></A><DIV id="tdcfd0e2b9a999403dacedf336fa9fb9ff">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'df2cb210e38ae4ad1bf48eb0ffb26874b')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='reg.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pf2cb210e38ae4ad1bf48eb0ffb26874b">reg</SPAN></A><DIV id="df2cb210e38ae4ad1bf48eb0ffb26874b">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='activation.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="ped98081b265a49debeeafc551c4aad1a">activation</SPAN></A><DIV id="tded98081b265a49debeeafc551c4aad1a">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'da143778d62e14a31b63f80e1127e00da')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='album.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pa143778d62e14a31b63f80e1127e00da">album</SPAN></A><DIV id="da143778d62e14a31b63f80e1127e00da">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='photo.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pfc23a1b040db49ba83d6c20629634d8a">photo</SPAN></A><DIV id="tdfc23a1b040db49ba83d6c20629634d8a">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd04a593ef637a4b50a9b238b03daa72ba')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='upload.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p04a593ef637a4b50a9b238b03daa72ba">upload</SPAN></A><DIV id="d04a593ef637a4b50a9b238b03daa72ba">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='upload-edit.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p4b9a8b2fc74048f8abf62e59f9ef7d6c">upload-edit</SPAN></A><DIV id="td4b9a8b2fc74048f8abf62e59f9ef7d6c">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='album-month.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pf8ec0dca62634f02bb4d807f88111110">album-month</SPAN></A><DIV id="tdf8ec0dca62634f02bb4d807f88111110">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='show.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pe0b165ed41c1490da32345e50d45fc92">show</SPAN></A><DIV id="tde0b165ed41c1490da32345e50d45fc92">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='about.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p7b831a8aafd04ddda56743cab3d7d162">about</SPAN></A><DIV id="td7b831a8aafd04ddda56743cab3d7d162">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='help.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p9201571bc7324021b4063df4a190087d">help</SPAN></A><DIV id="td9201571bc7324021b4063df4a190087d">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'dce1527100ac4445aa7b81e4ad7c79b3d')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='member.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pce1527100ac4445aa7b81e4ad7c79b3d">member</SPAN></A><DIV id="dce1527100ac4445aa7b81e4ad7c79b3d">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='editpassword.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pc7f20b6ed2eb46d388829a0063dee9f1">editpassword</SPAN></A><DIV id="tdc7f20b6ed2eb46d388829a0063dee9f1">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='editmail.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p7e9535e2352242d585dc7160a72f96ad">editmail</SPAN></A><DIV id="td7e9535e2352242d585dc7160a72f96ad">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd034c1dac87f24b93923fad92d5026170')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='backend.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p034c1dac87f24b93923fad92d5026170">backend</SPAN></A><DIV id="d034c1dac87f24b93923fad92d5026170">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='admin-ads.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p78b347135fda40e6b0f176018f1ba510">admin-ads</SPAN></A><DIV id="td78b347135fda40e6b0f176018f1ba510">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='admin-member.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pf50fb62b00f84c62acf704e5799c391a">admin-member</SPAN></A><DIV id="tdf50fb62b00f84c62acf704e5799c391a">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='admin-article.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pa5eef6919b85427b9aaafbf72634a678">admin-article</SPAN></A><DIV id="tda5eef6919b85427b9aaafbf72634a678">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='admin-album.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p9612c17be8584db09342b0089eded51b">admin-album</SPAN></A><DIV id="td9612c17be8584db09342b0089eded51b">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='admin-tags.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p4f3a09c8d6f948e5803f0c34ae1480a7">admin-tags</SPAN></A><DIV id="td4f3a09c8d6f948e5803f0c34ae1480a7">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='admin-logs.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p1c11bee28dee4cea9122014164160490">admin-logs</SPAN></A><DIV id="td1c11bee28dee4cea9122014164160490">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE></BODY></HTML>

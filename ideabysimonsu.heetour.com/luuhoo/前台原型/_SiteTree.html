@@ -1,0 +1,230 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><link href="Resources/axurerpprototype.css" type="text/css" rel="stylesheet"></HEAD>
+<BODY>
+<A href=# onclick='parent.CloseSitemap()' style='font-size:8pt'>Close Frames</A><br><br>
+
+<SCRIPT LANGUAGE="JavaScript">
+image1 = new Image();
+image1.src = 'Resources/plus.gif';
+
+function CloseSitemap()
+{
+	parent.URL = parent.mainFrame.URL
+}
+
+function ToggleDiv(node, id)
+{
+	sibling = document.getElementById(id);
+	if (sibling.style.display == 'none')
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/minus.gif";
+			}
+		}
+
+		sibling.style.display = '';
+	}
+	else
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/plus.gif";
+			}
+		}
+		sibling.style.display = 'none';
+	}
+}
+
+var currentPage = null;
+
+function highlight(id)
+{
+	if (currentPage != null)
+	{
+		currentPage.style.backgroundColor = '#EEEEFF';
+		currentPage.style.paddingLeft = '0px';
+		currentPage.style.paddingRight = '0px';
+		currentPage.style.border = '0px solid #666666';
+	}
+	
+	currentPage = document.getElementById(id);
+    if (currentPage) {
+	    currentPage.style.backgroundColor = '#DDDDDD';
+	    currentPage.style.paddingLeft = '3px';
+	    currentPage.style.paddingRight = '3px';
+	    currentPage.style.border = '1px solid #666666';
+    }
+}
+
+</SCRIPT>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd5d7ed11b72c541019ca9eef17e6fce7c')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='首页.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p5d7ed11b72c541019ca9eef17e6fce7c">首页</SPAN></A><DIV id="d5d7ed11b72c541019ca9eef17e6fce7c">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='房型列表.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p0167bab9d60141838521b84396c96877">房型列表</SPAN></A><DIV id="td0167bab9d60141838521b84396c96877">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='房型地图列表.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p21a6046d92014b5498e02372938268cc">房型地图列表</SPAN></A><DIV id="td21a6046d92014b5498e02372938268cc">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'dcad6dca21a614a34b99d84ebd661229e')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='房型详细展示.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pcad6dca21a614a34b99d84ebd661229e">房型详细展示</SPAN></A><DIV id="dcad6dca21a614a34b99d84ebd661229e">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='小区图库.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pc9b37ba23aee4a749c4f7620943004b9">小区图库</SPAN></A><DIV id="tdc9b37ba23aee4a749c4f7620943004b9">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='交通指引.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p219d08e2103b4f9294f218178900cafd">交通指引</SPAN></A><DIV id="td219d08e2103b4f9294f218178900cafd">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='用户评论.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pfecd4f53855f4efbb9c297f7dad84820">用户评论</SPAN></A><DIV id="tdfecd4f53855f4efbb9c297f7dad84820">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='小区周边.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p3a53e80db3d4441cbd4d29e22d43754f">小区周边</SPAN></A><DIV id="td3a53e80db3d4441cbd4d29e22d43754f">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='同小区其它房型.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p9c95b39aeec540cfa60eb944c9c25915">同小区其它房型</SPAN></A><DIV id="td9c95b39aeec540cfa60eb944c9c25915">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='订单提交成功.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pd25f26a2e1c84f1e8c78bd1c688440a3">订单提交成功</SPAN></A><DIV id="tdd25f26a2e1c84f1e8c78bd1c688440a3">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd23e8f4b5e0d94410ba8a55e8f5046818')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='会员中心.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p23e8f4b5e0d94410ba8a55e8f5046818">会员中心</SPAN></A><DIV id="d23e8f4b5e0d94410ba8a55e8f5046818">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='注册.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p6fe9764ec7f4480987ced091621cb6e6">注册</SPAN></A><DIV id="td6fe9764ec7f4480987ced091621cb6e6">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='登录.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p64cee6c7c2214344981cd5eb039ed41d">登录</SPAN></A><DIV id="td64cee6c7c2214344981cd5eb039ed41d">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd47deb87e2f5d4647ae212ff7effd3b32')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='找回密码.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p47deb87e2f5d4647ae212ff7effd3b32">找回密码</SPAN></A><DIV id="d47deb87e2f5d4647ae212ff7effd3b32">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='重置成功.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p48d06aa525ce43fa9332590cc28a6e0e">重置成功</SPAN></A><DIV id="td48d06aa525ce43fa9332590cc28a6e0e">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='会员信息.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p2b6c8f5f32ea49dfa96c166a5cd039d8">会员信息</SPAN></A><DIV id="td2b6c8f5f32ea49dfa96c166a5cd039d8">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="13" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd37bc99d64bab493484f371591261e83f')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='我的订单.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p37bc99d64bab493484f371591261e83f">我的订单</SPAN></A><DIV id="d37bc99d64bab493484f371591261e83f">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='查看_修改订单.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pfa9be34e159b4db19f49ac1a01687193">查看/修改订单</SPAN></A><DIV id="tdfa9be34e159b4db19f49ac1a01687193">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='我的留言.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p0967d8fdca8844188d3a7fe3936e70ab">我的留言</SPAN></A><DIV id="td0967d8fdca8844188d3a7fe3936e70ab">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='我要咨询.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p10d345005f024d86a9aba33f6df2162c">我要咨询</SPAN></A><DIV id="td10d345005f024d86a9aba33f6df2162c">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='业主管理通道.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p15aae85ea2134b3aa6eca2140e50df14">业主管理通道</SPAN></A><DIV id="td15aae85ea2134b3aa6eca2140e50df14">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE></BODY></HTML>

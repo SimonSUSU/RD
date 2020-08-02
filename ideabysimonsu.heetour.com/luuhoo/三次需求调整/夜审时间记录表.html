@@ -1,0 +1,958 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet">
+<SCRIPT src="Resources/axurerp_beforepagescript.js"></SCRIPT></HEAD><BODY>
+<DIV id=u0 style="position:absolute; left:200px; top:100px; width:620px; height:168px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u0_rtf><span style=" font-family:'Arial'; color:#009900; font-size:13px;">/*</span><br><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#009900; font-size:13px;">1、用于记录每次夜审的执行时间。不在后台显示，仅供技术计算用。。<br>&nbsp;&nbsp; 如当前夜审时间为：2011-06-18 03：05，则下次夜审时间（自动）：2011-06-19 03：05，在此时间段算出的数据为18号的相关数据。（非计算机18号的00~24点的时间）<br><br>2、技术记录 操作人员点击&ldquo;夜审&rdquo;的夜审时间，下一次夜审时间同样为操作人员点击&ldquo;夜审&rdquo;进行记录时间点。（若操作人员没点击&ldquo;夜审&rdquo;，系统自动添加夜审时间。）<br><br>3、系统进入夜审时，禁止后台的数据入库。<b>夜审完成后，再记录完成后的服务器系统时间点。？？</b></span><br><span style=" font-family:'Arial'; color:#009900; font-size:13px;">*/</span></DIV></DIV>
+<DIV id=ou1 style="position:absolute; left:505px; top:280px; width:306px; height:41px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:314px; height:49px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u1.png',sizingMethod='scale');
+"><img style="width:314px; height:49px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u1.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u1container style="position:absolute; left:505px; top:280px; width:306px; height:41px;; overflow:visible;">
+
+<DIV id=u2 style="position:absolute; left:2px; top:12px; width:301px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u2_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>服务器系统时间</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u1 src="Resources/transparent.gif" style="position:absolute; left:505px; top:280px; width:305px; height:40px"   >
+
+<DIV id=ou3 style="position:absolute; left:200px; top:280px; width:306px; height:41px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:314px; height:49px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u1.png',sizingMethod='scale');
+"><img style="width:314px; height:49px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u1.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u3container style="position:absolute; left:200px; top:280px; width:306px; height:41px;; overflow:visible;">
+
+<DIV id=u4 style="position:absolute; left:2px; top:12px; width:301px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u4_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>夜审时间</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u3 src="Resources/transparent.gif" style="position:absolute; left:200px; top:280px; width:305px; height:40px"   >
+
+<DIV id=ou5 style="position:absolute; left:505px; top:320px; width:306px; height:41px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:314px; height:49px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u5.png',sizingMethod='scale');
+"><img style="width:314px; height:49px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u5.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u5container style="position:absolute; left:505px; top:320px; width:306px; height:41px;; overflow:visible;">
+
+<DIV id=u6 style="position:absolute; left:2px; top:12px; width:301px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u6_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>2011-06-19 03:00:23</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u5 src="Resources/transparent.gif" style="position:absolute; left:505px; top:320px; width:305px; height:40px"   >
+
+<DIV id=ou7 style="position:absolute; left:200px; top:320px; width:306px; height:41px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:314px; height:49px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u5.png',sizingMethod='scale');
+"><img style="width:314px; height:49px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u5.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u7container style="position:absolute; left:200px; top:320px; width:306px; height:41px;; overflow:visible;">
+
+<DIV id=u8 style="position:absolute; left:2px; top:12px; width:301px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u8_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>2011-06-18</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u7 src="Resources/transparent.gif" style="position:absolute; left:200px; top:320px; width:305px; height:40px"   >
+
+<DIV id=ou9 style="position:absolute; left:0px; top:0px; width:1011px; height:91px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:1019px; height:99px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u9.png',sizingMethod='scale');
+"><img style="width:1019px; height:99px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u9.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u9container style="position:absolute; left:0px; top:0px; width:1011px; height:91px;; overflow:visible;">
+
+<DIV id=u10 style="position:absolute; left:2px; top:37px; width:1006px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u10_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u9 src="Resources/transparent.gif" style="position:absolute; left:0px; top:0px; width:1010px; height:90px"   >
+
+<DIV id=ou11 style="position:absolute; left:0px; top:300px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u11container style="position:absolute; left:0px; top:300px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u12 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u12_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>公寓管理</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u11 src="Resources/transparent.gif" style="position:absolute; left:0px; top:300px; width:100px; height:30px"   >
+
+<DIV id=u13 style="position:absolute; left:27px; top:19px; width:200px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u13_rtf><span style=" font-family:'Arial'; color:#000000; font-size:21px;"><b>LUUHOO</b></span></DIV></DIV>
+<DIV id=ou14 style="position:absolute; left:0px; top:60px; width:1011px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:1019px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u14.png',sizingMethod='scale');
+"><img style="width:1019px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u14.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u14container style="position:absolute; left:0px; top:60px; width:1011px; height:31px;; overflow:visible;">
+
+<DIV id=u15 style="position:absolute; left:2px; top:7px; width:1006px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u15_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u14 src="Resources/transparent.gif" style="position:absolute; left:0px; top:60px; width:1010px; height:30px"   >
+
+<DIV id=ou16 style="position:absolute; left:0px; top:60px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u16.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u16.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u16container style="position:absolute; left:0px; top:60px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u17 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u17_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FFFFFF; font-size:13px;">后台首页</span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u16 src="Resources/transparent.gif" style="position:absolute; left:0px; top:60px; width:100px; height:30px"   >
+
+<DIV id=ou18 style="position:absolute; left:100px; top:60px; width:91px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:99px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u18.png',sizingMethod='scale');
+"><img style="width:99px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u18.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u18container style="position:absolute; left:100px; top:60px; width:91px; height:31px;; overflow:visible;">
+
+<DIV id=u19 style="position:absolute; left:2px; top:6px; width:86px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u19_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FFFFFF; font-size:13px;">小区管理</span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u18 src="Resources/transparent.gif" style="position:absolute; left:100px; top:60px; width:90px; height:30px"   >
+
+<DIV id=u20 style="position:absolute; left:674px; top:24px; width:240px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u20_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">查看网站&nbsp;&nbsp; 修改密码</span></div></DIV></DIV>
+<DIV id=ou21 style="position:absolute; left:0px; top:330px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u21container style="position:absolute; left:0px; top:330px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u22 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u22_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>房间列表</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u21 src="Resources/transparent.gif" style="position:absolute; left:0px; top:330px; width:100px; height:30px"   >
+
+<DIV id=ou23 style="position:absolute; left:0px; top:360px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u23container style="position:absolute; left:0px; top:360px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u24 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u24_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>添加房间</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u23 src="Resources/transparent.gif" style="position:absolute; left:0px; top:360px; width:100px; height:30px"   >
+
+<DIV id=ou25 style="position:absolute; left:0px; top:420px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u25container style="position:absolute; left:0px; top:420px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u26 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u26_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>小区管理</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u25 src="Resources/transparent.gif" style="position:absolute; left:0px; top:420px; width:100px; height:30px"   >
+
+<DIV id=ou27 style="position:absolute; left:0px; top:510px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u27container style="position:absolute; left:0px; top:510px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u28 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u28_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>会员管理</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u27 src="Resources/transparent.gif" style="position:absolute; left:0px; top:510px; width:100px; height:30px"   >
+
+<DIV id=ou29 style="position:absolute; left:0px; top:540px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u29container style="position:absolute; left:0px; top:540px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u30 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u30_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>会员列表</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u29 src="Resources/transparent.gif" style="position:absolute; left:0px; top:540px; width:100px; height:30px"   >
+
+<DIV id=ou31 style="position:absolute; left:0px; top:570px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u31container style="position:absolute; left:0px; top:570px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u32 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u32_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>添加会员</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u31 src="Resources/transparent.gif" style="position:absolute; left:0px; top:570px; width:100px; height:30px"   >
+
+<DIV id=ou33 style="position:absolute; left:0px; top:210px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u33container style="position:absolute; left:0px; top:210px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u34 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u34_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>业主管理</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u33 src="Resources/transparent.gif" style="position:absolute; left:0px; top:210px; width:100px; height:30px"   >
+
+<DIV id=ou35 style="position:absolute; left:0px; top:240px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u35container style="position:absolute; left:0px; top:240px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u36 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u36_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>业主列表</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u35 src="Resources/transparent.gif" style="position:absolute; left:0px; top:240px; width:100px; height:30px"   >
+
+<DIV id=ou37 style="position:absolute; left:0px; top:270px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u37container style="position:absolute; left:0px; top:270px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u38 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u38_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>新增业主</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u37 src="Resources/transparent.gif" style="position:absolute; left:0px; top:270px; width:100px; height:30px"   >
+
+<DIV id=ou39 style="position:absolute; left:0px; top:600px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u39container style="position:absolute; left:0px; top:600px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u40 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u40_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>会员等级</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u39 src="Resources/transparent.gif" style="position:absolute; left:0px; top:600px; width:100px; height:30px"   >
+
+<DIV id=ou41 style="position:absolute; left:0px; top:450px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u41container style="position:absolute; left:0px; top:450px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u42 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u42_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u> 小区列表</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u41 src="Resources/transparent.gif" style="position:absolute; left:0px; top:450px; width:100px; height:30px"   >
+
+<DIV id=ou43 style="position:absolute; left:0px; top:480px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u43container style="position:absolute; left:0px; top:480px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u44 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u44_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>添加小区</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u43 src="Resources/transparent.gif" style="position:absolute; left:0px; top:480px; width:100px; height:30px"   >
+
+<DIV id=ou45 style="position:absolute; left:0px; top:1110px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u45container style="position:absolute; left:0px; top:1110px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u46 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u46_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>系统管理</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u45 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1110px; width:100px; height:30px"   >
+
+<DIV id=ou47 style="position:absolute; left:0px; top:1140px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u47container style="position:absolute; left:0px; top:1140px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u48 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u48_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>地区管理</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u47 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1140px; width:100px; height:30px"   >
+
+<DIV id=ou49 style="position:absolute; left:0px; top:1170px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u49container style="position:absolute; left:0px; top:1170px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u50 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u50_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>生活圈管理</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u49 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1170px; width:100px; height:30px"   >
+
+<DIV id=ou51 style="position:absolute; left:0px; top:1200px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u51container style="position:absolute; left:0px; top:1200px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u52 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u52_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>房间设施管理</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u51 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1200px; width:100px; height:30px"   >
+
+<DIV id=ou53 style="position:absolute; left:0px; top:1230px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u53container style="position:absolute; left:0px; top:1230px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u54 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u54_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>装修程度管理</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u53 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1230px; width:100px; height:30px"   >
+
+<DIV id=ou55 style="position:absolute; left:0px; top:1260px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u55container style="position:absolute; left:0px; top:1260px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u56 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u56_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>房间类型管理</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u55 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1260px; width:100px; height:30px"   >
+
+<DIV id=ou57 style="position:absolute; left:0px; top:1320px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u57container style="position:absolute; left:0px; top:1320px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u58 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u58_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#999999; font-size:13px;">友情链接管理</span></div></DIV></DIV>
+</DIV>
+<IMG id=u57 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1320px; width:100px; height:30px"   >
+
+<DIV id=ou59 style="position:absolute; left:0px; top:90px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u59container style="position:absolute; left:0px; top:90px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u60 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u60_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>订单管理</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u59 src="Resources/transparent.gif" style="position:absolute; left:0px; top:90px; width:100px; height:30px"   >
+
+<DIV id=ou61 style="position:absolute; left:0px; top:120px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u61container style="position:absolute; left:0px; top:120px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u62 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u62_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>订单列表</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u61 src="Resources/transparent.gif" style="position:absolute; left:0px; top:120px; width:100px; height:30px"   >
+
+<DIV id=ou63 style="position:absolute; left:0px; top:150px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u63container style="position:absolute; left:0px; top:150px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u64 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u64_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>添加手工订单</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u63 src="Resources/transparent.gif" style="position:absolute; left:0px; top:150px; width:100px; height:30px"   >
+
+<DIV id=ou65 style="position:absolute; left:0px; top:180px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u65container style="position:absolute; left:0px; top:180px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u66 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u66_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">订单统计</span></div></DIV></DIV>
+</DIV>
+<IMG id=u65 src="Resources/transparent.gif" style="position:absolute; left:0px; top:180px; width:100px; height:30px"   >
+
+<DIV id=ou67 style="position:absolute; left:0px; top:990px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u67container style="position:absolute; left:0px; top:990px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u68 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u68_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;"><b>统计报表</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u67 src="Resources/transparent.gif" style="position:absolute; left:0px; top:990px; width:100px; height:30px"   >
+
+<DIV id=ou69 style="position:absolute; left:0px; top:1020px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u69container style="position:absolute; left:0px; top:1020px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u70 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u70_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">订单统计</span></div></DIV></DIV>
+</DIV>
+<IMG id=u69 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1020px; width:100px; height:30px"   >
+
+<DIV id=ou71 style="position:absolute; left:0px; top:1050px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u71container style="position:absolute; left:0px; top:1050px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u72 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u72_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">房态统计</span></div></DIV></DIV>
+</DIV>
+<IMG id=u71 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1050px; width:100px; height:30px"   >
+
+<DIV id=ou73 style="position:absolute; left:0px; top:1080px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u73container style="position:absolute; left:0px; top:1080px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u74 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u74_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">....</span></div></DIV></DIV>
+</DIV>
+<IMG id=u73 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1080px; width:100px; height:30px"   >
+
+<DIV id=ou75 style="position:absolute; left:0px; top:390px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u75container style="position:absolute; left:0px; top:390px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u76 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u76_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">公寓点评</span></div></DIV></DIV>
+</DIV>
+<IMG id=u75 src="Resources/transparent.gif" style="position:absolute; left:0px; top:390px; width:100px; height:30px"   >
+
+<DIV id=ou77 style="position:absolute; left:0px; top:1350px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u77container style="position:absolute; left:0px; top:1350px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u78 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u78_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>角色管理</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u77 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1350px; width:100px; height:30px"   >
+
+<DIV id=ou79 style="position:absolute; left:0px; top:1380px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u79container style="position:absolute; left:0px; top:1380px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u80 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u80_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>权限管理</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u79 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1380px; width:100px; height:30px"   >
+
+<DIV id=ou81 style="position:absolute; left:0px; top:780px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u81container style="position:absolute; left:0px; top:780px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u82 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u82_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;"><b>资讯管理</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u81 src="Resources/transparent.gif" style="position:absolute; left:0px; top:780px; width:100px; height:30px"   >
+
+<DIV id=ou83 style="position:absolute; left:0px; top:810px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u83container style="position:absolute; left:0px; top:810px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u84 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u84_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">添加文章</span></div></DIV></DIV>
+</DIV>
+<IMG id=u83 src="Resources/transparent.gif" style="position:absolute; left:0px; top:810px; width:100px; height:30px"   >
+
+<DIV id=ou85 style="position:absolute; left:0px; top:840px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u85container style="position:absolute; left:0px; top:840px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u86 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u86_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">资讯列表</span></div></DIV></DIV>
+</DIV>
+<IMG id=u85 src="Resources/transparent.gif" style="position:absolute; left:0px; top:840px; width:100px; height:30px"   >
+
+<DIV id=ou87 style="position:absolute; left:0px; top:870px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u87container style="position:absolute; left:0px; top:870px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u88 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u88_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">资讯分类</span></div></DIV></DIV>
+</DIV>
+<IMG id=u87 src="Resources/transparent.gif" style="position:absolute; left:0px; top:870px; width:100px; height:30px"   >
+
+<DIV id=u89 style="position:absolute; left:940px; top:23px; width:60px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u89_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>退出系统</u></span></DIV></DIV>
+<DIV id=ou90 style="position:absolute; left:0px; top:1290px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u90container style="position:absolute; left:0px; top:1290px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u91 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u91_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>房间景观管理</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u90 src="Resources/transparent.gif" style="position:absolute; left:0px; top:1290px; width:100px; height:30px"   >
+
+<DIV id=ou92 style="position:absolute; left:190px; top:60px; width:91px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:99px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u18.png',sizingMethod='scale');
+"><img style="width:99px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u18.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u92container style="position:absolute; left:190px; top:60px; width:91px; height:31px;; overflow:visible;">
+
+<DIV id=u93 style="position:absolute; left:2px; top:6px; width:86px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u93_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FFFFFF; font-size:13px;">房间管理</span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u92 src="Resources/transparent.gif" style="position:absolute; left:190px; top:60px; width:90px; height:30px"   >
+
+<DIV id=ou94 style="position:absolute; left:550px; top:60px; width:91px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:99px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u18.png',sizingMethod='scale');
+"><img style="width:99px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u18.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u94container style="position:absolute; left:550px; top:60px; width:91px; height:31px;; overflow:visible;">
+
+<DIV id=u95 style="position:absolute; left:2px; top:6px; width:86px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u95_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FFFFFF; font-size:13px;">订单管理</span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u94 src="Resources/transparent.gif" style="position:absolute; left:550px; top:60px; width:90px; height:30px"   >
+
+<DIV id=ou96 style="position:absolute; left:640px; top:60px; width:91px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:99px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u18.png',sizingMethod='scale');
+"><img style="width:99px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u18.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u96container style="position:absolute; left:640px; top:60px; width:91px; height:31px;; overflow:visible;">
+
+<DIV id=u97 style="position:absolute; left:2px; top:6px; width:86px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u97_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FFCC00; font-size:13px;"><b>添加手工订单</b></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u96 src="Resources/transparent.gif" style="position:absolute; left:640px; top:60px; width:90px; height:30px"   >
+
+<DIV id=ou98 style="position:absolute; left:280px; top:60px; width:91px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:99px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u18.png',sizingMethod='scale');
+"><img style="width:99px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u18.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u98container style="position:absolute; left:280px; top:60px; width:91px; height:31px;; overflow:visible;">
+
+<DIV id=u99 style="position:absolute; left:2px; top:6px; width:86px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u99_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FFFFFF; font-size:13px;">业主管理</span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u98 src="Resources/transparent.gif" style="position:absolute; left:280px; top:60px; width:90px; height:30px"   >
+
+<DIV id=ou100 style="position:absolute; left:920px; top:60px; width:91px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:99px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u100.png',sizingMethod='scale');
+"><img style="width:99px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u100.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u100container style="position:absolute; left:920px; top:60px; width:91px; height:31px;; overflow:visible;">
+
+<DIV id=u101 style="position:absolute; left:2px; top:6px; width:86px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u101_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#949494; font-size:13px;">房态统计</span></div></DIV></DIV>
+</DIV>
+<IMG id=u100 src="Resources/transparent.gif" style="position:absolute; left:920px; top:60px; width:90px; height:30px"   >
+
+<DIV id=ou102 style="position:absolute; left:370px; top:60px; width:91px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:99px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u18.png',sizingMethod='scale');
+"><img style="width:99px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u18.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u102container style="position:absolute; left:370px; top:60px; width:91px; height:31px;; overflow:visible;">
+
+<DIV id=u103 style="position:absolute; left:2px; top:6px; width:86px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u103_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FFFFFF; font-size:13px;">会员管理</span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u102 src="Resources/transparent.gif" style="position:absolute; left:370px; top:60px; width:90px; height:30px"   >
+
+<DIV id=ou104 style="position:absolute; left:460px; top:60px; width:91px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:99px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u18.png',sizingMethod='scale');
+"><img style="width:99px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u18.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u104container style="position:absolute; left:460px; top:60px; width:91px; height:31px;; overflow:visible;">
+
+<DIV id=u105 style="position:absolute; left:2px; top:6px; width:86px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u105_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FFFFFF; font-size:13px;">咨询管理</span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u104 src="Resources/transparent.gif" style="position:absolute; left:460px; top:60px; width:90px; height:30px"   >
+
+<DIV id=u106 style="position:absolute; left:805px; top:70px; width:90px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u106_rtf><span style=" font-family:'Arial'; color:#949494; font-size:13px;">//</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#949494; font-size:13px;">快捷菜单</span></DIV></DIV>
+<DIV id=ou107 style="position:absolute; left:0px; top:630px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u107container style="position:absolute; left:0px; top:630px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u108 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u108_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>会员咨询</u></span></div></DIV></DIV>
+</DIV>
+<INPUT type="image" id=u107 src="Resources/transparent.gif" style="position:absolute; left:0px; top:630px; width:100px; height:30px"   >
+
+<DIV id=ou109 style="position:absolute; left:0px; top:900px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u109container style="position:absolute; left:0px; top:900px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u110 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u110_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;"><b>讨论区管理</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u109 src="Resources/transparent.gif" style="position:absolute; left:0px; top:900px; width:100px; height:30px"   >
+
+<DIV id=ou111 style="position:absolute; left:0px; top:930px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u111container style="position:absolute; left:0px; top:930px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u112 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u112_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">贴子管理</span></div></DIV></DIV>
+</DIV>
+<IMG id=u111 src="Resources/transparent.gif" style="position:absolute; left:0px; top:930px; width:100px; height:30px"   >
+
+<DIV id=ou113 style="position:absolute; left:0px; top:960px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u113container style="position:absolute; left:0px; top:960px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u114 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u114_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">讨论区分类管理</span></div></DIV></DIV>
+</DIV>
+<IMG id=u113 src="Resources/transparent.gif" style="position:absolute; left:0px; top:960px; width:100px; height:30px"   >
+
+<DIV id=ou115 style="position:absolute; left:0px; top:660px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u115container style="position:absolute; left:0px; top:660px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u116 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u116_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;"><b>套餐产品管理</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u115 src="Resources/transparent.gif" style="position:absolute; left:0px; top:660px; width:100px; height:30px"   >
+
+<DIV id=ou117 style="position:absolute; left:0px; top:690px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u117container style="position:absolute; left:0px; top:690px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u118 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u118_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">添加套餐产品</span></div></DIV></DIV>
+</DIV>
+<IMG id=u117 src="Resources/transparent.gif" style="position:absolute; left:0px; top:690px; width:100px; height:30px"   >
+
+<DIV id=ou119 style="position:absolute; left:0px; top:720px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u119container style="position:absolute; left:0px; top:720px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u120 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u120_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">套餐产品列表</span></div></DIV></DIV>
+</DIV>
+<IMG id=u119 src="Resources/transparent.gif" style="position:absolute; left:0px; top:720px; width:100px; height:30px"   >
+
+<DIV id=ou121 style="position:absolute; left:0px; top:750px; width:101px; height:31px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u11.png',sizingMethod='scale');
+"><img style="width:109px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u11.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u121container style="position:absolute; left:0px; top:750px; width:101px; height:31px;; overflow:visible;">
+
+<DIV id=u122 style="position:absolute; left:2px; top:6px; width:96px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u122_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">产品栏目管理</span></div></DIV></DIV>
+</DIV>
+<IMG id=u121 src="Resources/transparent.gif" style="position:absolute; left:0px; top:750px; width:100px; height:30px"   >
+
+<DIV id=ou123 style="position:absolute; left:505px; top:360px; width:306px; height:41px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:314px; height:49px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u5.png',sizingMethod='scale');
+"><img style="width:314px; height:49px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u5.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u123container style="position:absolute; left:505px; top:360px; width:306px; height:41px;; overflow:visible;">
+
+<DIV id=u124 style="position:absolute; left:2px; top:12px; width:301px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u124_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>2011-06-20 03:01:56</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u123 src="Resources/transparent.gif" style="position:absolute; left:505px; top:360px; width:305px; height:40px"   >
+
+<DIV id=ou125 style="position:absolute; left:200px; top:360px; width:306px; height:41px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:314px; height:49px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u5.png',sizingMethod='scale');
+"><img style="width:314px; height:49px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u5.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u125container style="position:absolute; left:200px; top:360px; width:306px; height:41px;; overflow:visible;">
+
+<DIV id=u126 style="position:absolute; left:2px; top:12px; width:301px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u126_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>2011-06-19</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u125 src="Resources/transparent.gif" style="position:absolute; left:200px; top:360px; width:305px; height:40px"   >
+
+<DIV id=ou127 style="position:absolute; left:505px; top:400px; width:306px; height:41px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:314px; height:49px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u5.png',sizingMethod='scale');
+"><img style="width:314px; height:49px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u5.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u127container style="position:absolute; left:505px; top:400px; width:306px; height:41px;; overflow:visible;">
+
+<DIV id=u128 style="position:absolute; left:2px; top:12px; width:301px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u128_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>2011-06-21 03:01:23</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u127 src="Resources/transparent.gif" style="position:absolute; left:505px; top:400px; width:305px; height:40px"   >
+
+<DIV id=ou129 style="position:absolute; left:200px; top:400px; width:306px; height:41px;; overflow:visible; ">
+
+<span style="position:absolute; left:-3px; top:-3px; width:314px; height:49px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='夜审时间记录表_files/u5.png',sizingMethod='scale');
+"><img style="width:314px; height:49px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="夜审时间记录表_files/u5.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u129container style="position:absolute; left:200px; top:400px; width:306px; height:41px;; overflow:visible;">
+
+<DIV id=u130 style="position:absolute; left:2px; top:12px; width:301px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u130_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>2011-06-20</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u129 src="Resources/transparent.gif" style="position:absolute; left:200px; top:400px; width:305px; height:40px"   >
+<SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="夜审时间记录表_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>
