@@ -1,0 +1,54 @@
+﻿body {
+  margin:0px;
+  background-color:rgba(204, 204, 204, 1);
+  background-image:url('../../images/项目导航图/bg.png');
+  background-position:center center;
+  background-repeat:repeat;
+  background-attachment:fixed;
+  background-size:600px 319px;
+  background-origin:border-box;
+  position:relative;
+  left:0px;
+  width:1780px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u6957_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1780px;
+  height:879px;
+}
+#u6957 {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1780px;
+  height:879px;
+  display:flex;
+}
+#u6957 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u6957_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}

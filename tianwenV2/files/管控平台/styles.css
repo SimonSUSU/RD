@@ -1,7 +1,12 @@
 ﻿body {
   margin:0px;
   background-color:rgba(204, 204, 204, 1);
-  background-image:none;
+  background-image:url('../../images/项目导航图/bg.png');
+  background-position:center center;
+  background-repeat:repeat;
+  background-attachment:fixed;
+  background-size:600px 319px;
+  background-origin:border-box;
   position:relative;
   left:0px;
   width:983px;
@@ -17,7 +22,7 @@
   position:absolute;
   z-index:0;
 }
-#u6445_div {
+#u6637_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -35,7 +40,7 @@
   font-weight:400;
   font-style:normal;
 }
-#u6445 {
+#u6637 {
   border-width:0px;
   position:absolute;
   left:16px;
@@ -47,19 +52,19 @@
   font-weight:400;
   font-style:normal;
 }
-#u6445 .text {
+#u6637 .text {
   position:absolute;
   align-self:flex-start;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
-#u6445_text {
+#u6637_text {
   border-width:0px;
   white-space:nowrap;
   text-transform:none;
 }
-#u6446_img {
+#u6638_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -67,7 +72,7 @@
   width:983px;
   height:557px;
 }
-#u6446 {
+#u6638 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -76,20 +81,20 @@
   height:557px;
   display:flex;
 }
-#u6446 .text {
+#u6638 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u6446_text {
+#u6638_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u6447_img {
+#u6639_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -97,7 +102,7 @@
   width:983px;
   height:557px;
 }
-#u6447 {
+#u6639 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -106,14 +111,14 @@
   height:557px;
   display:flex;
 }
-#u6447 .text {
+#u6639 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u6447_text {
+#u6639_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
