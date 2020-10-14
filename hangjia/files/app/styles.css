@@ -9,87 +9,118 @@
   margin-right:auto;
   text-align:left;
 }
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
 #base {
   position:absolute;
   z-index:0;
 }
-#u296_img {
+#u762_img {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:376px;
-  height:668px;
+  width:375px;
+  height:667px;
 }
-#u296 {
+#u762 {
   border-width:0px;
   position:absolute;
   left:41px;
   top:0px;
   width:375px;
   height:667px;
+  display:flex;
 }
-#u296_text {
-  border-width:0px;
+#u762 .text {
   position:absolute;
-  left:0px;
-  top:0px;
-  width:0px;
-  visibility:hidden;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u762_text {
+  border-width:0px;
   word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
 }
-#u297_img {
+#u763_div {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:348px;
-  height:34px;
-}
-#u297 {
-  border-width:0px;
-  position:absolute;
-  left:52px;
-  top:315px;
   width:347px;
-  height:33px;
-  font-family:'Arial Normal', 'Arial';
+  height:32px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'Arial Normal', 'Arial', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:28px;
   text-align:center;
 }
-#u297_text {
+#u763 {
   border-width:0px;
   position:absolute;
-  left:0px;
-  top:0px;
+  left:52px;
+  top:315px;
   width:347px;
-  word-wrap:break-word;
+  height:32px;
+  display:flex;
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:28px;
+  text-align:center;
 }
-#u298_img {
+#u763 .text {
+  position:absolute;
+  align-self:center;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u763_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u764_img {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:96px;
-  height:96px;
+  width:95px;
+  height:95px;
 }
-#u298 {
+#u764 {
   border-width:0px;
   position:absolute;
   left:182px;
   top:191px;
   width:95px;
   height:95px;
+  display:flex;
   font-size:36px;
   color:#FFFFFF;
 }
-#u298_text {
-  border-width:0px;
+#u764 .text {
   position:absolute;
-  left:2px;
-  top:26px;
-  width:91px;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u764_text {
+  border-width:0px;
   word-wrap:break-word;
+  text-transform:none;
 }
